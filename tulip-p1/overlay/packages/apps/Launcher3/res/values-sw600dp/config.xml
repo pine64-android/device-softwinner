@@ -1,0 +1,5 @@
+<resources>
+<!-- Dynamic Grid -->
+    <integer name="config_dynamic_grid_max_long_edge_cell_count">6</integer>
+    <integer name="config_dynamic_grid_max_short_edge_cell_count">5</integer>
+</resources>

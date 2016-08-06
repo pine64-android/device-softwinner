@@ -1,0 +1,25 @@
+# label graphics device with a new type, we need
+# to allow write operation from appdomain
+
+# gpu device labeling
+/dev/pvr_sync           u:object_r:gpu_device:s0
+
+# disp device labeling
+/dev/disp               u:object_r:disp_device:s0
+
+# Bluetooth
+/dev/ttyS2              u:object_r:hci_attach_dev:s0
+
+# Bluetooth
+/sys/class/rfkill/rfkill0/state u:object_r:sysfs_bluetooth_writable:s0
+
+# cedar_dev
+/dev/cedar_dev    u:object_r:cedar_device:s0
+# preinstall
+/system/bin/precopy.sh     u:object_r:preinstall_exec:s0
+/system/bin/preinstall.sh  u:object_r:preinstall_exec:s0
+/system/bin/sensors.sh     u:object_r:sensors_exec:s0
+
+#rild
+/dev/ttyUSB[0-4]  u:object_r:radio_device:s0
+/dev/ttyACM[0-4]  u:object_r:radio_device:s0

@@ -1,0 +1,6 @@
+allow mediaserver cedar_device:chr_file rw_file_perms;
+allow mediaserver platform_app:dir search;
+allow mediaserver platform_app:file {read open};
+allow mediaserver untrusted_app:dir search;
+allow mediaserver untrusted_app:file {read open};
+allow mediaserver system_prop:property_service {set};

@@ -1,0 +1,4 @@
+<resources>
+<!-- QSB -->
+    <dimen name="qsb_bar_height">100dp</dimen>
+</resources>

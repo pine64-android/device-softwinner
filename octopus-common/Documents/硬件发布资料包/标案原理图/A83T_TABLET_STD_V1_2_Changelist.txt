@@ -1,0 +1,96 @@
+V1.2 20141103
+1.背光使能电路增加两个三极管电路
+2.wifi 32K clock增加0欧电阻
+3.wifi “E”部分电路包括wifi-reg-on的下拉电阻
+4.Camera 数据线增加备注“如果camera模组是8位，必须连接主控的高8位”
+
+
+V1.0 20140923
+1.原理图名字删除DDR3_16*2，框图中删除2*16bit，框图中增加3G模组的USB连接关系
+2.版本改为V1_0
+3.增加2G/3G部分原理图
+4.AP-wake-BT网络从PL口挪到PH口
+5.Baseband 的4个控制信号放到PL口
+6.VDDFB-CPUA VDDFB-CPUB信号在主控端增加测试点
+7.AP-RESET和AP-NMI信号在主控端增加1nF电容
+8.AP-RESET信号靠近PMU端的472电容默认NC，option 部分不包括此电容
+9.删除MIPI-CSI2 CLK和D0测试点
+10.删除VBAT-EXT串接0欧电阻
+11.删除PMIC I2C上拉电阻，预留测试点
+12.EMMC处备注改为“If use eMMC 5.0, mount A. else NC A ”
+13.ESD器件全部统一为AU0511P1，USB上的ESD改为分立器件，信号线上ESD型号为AU0561P1
+14.VCC-LCD靠近屏接口处增加4.7uF电容
+15.删除Wifi 32K 串接0欧电阻
+16.SDIO Wifi CLK增加33欧串接电阻
+17.RGB屏的电源AVDD-LCD去耦电容增加耐压要求
+18.统一封装、器件描述等细节问题
+19.WIFI模组PIN8 VBAT供电由VCC-WIFI-IO改为VBAT-EXT,WIFI模组SDIO和UART上拉供电由VCC-3V3改为VCC-WIFI-IO
+20.UBOOT按键增加ESD器件
+21.HDMI CEC功能部分电路做Option，默认NC
+22.AXP813 VCC-IO2供电由VCC-3V3改为VCC-WIFI-IO
+23.按键部分电路电阻值改动，增加1%精度要求。
+24.DCDC1电源由3.3V改为3.1V，同时外设电也改为3.1V
+25.背光使能电路增加RC滤波电路
+
+V1.03 20140917
+04 GPIO ASSIGNMENT
+1. CTP-INT由原PG10改为PL8
+
+06 CPU
+1. CTP-INT由原来的PG10改为PL8
+
+V1.02 20140904
+=============================================================
+02 BLOCK
+1. 电池电压范围可支持到市面现有的4.35V电池
+
+04 GPIO ASSIGNMENT
+1. CTP-RST由原PH9改为PL7
+
+06 CPU
+1. CTP-RST由原PH9改为PL7
+2. 删掉USB0-VBUSDET以及USB-ID PIN在USB0控制器上的连接电路
+
+07 POWER
+1. AXP813的T6 VREF PIN增加测试点
+
+10 LVDS-MIPI DSI
+1. 删除CTP页重复的TWI0-SCK和TWI0-SDA上拉电路
+
+11 CARD-SENSOR-VIBRATOR-KEY-OTG
+1. 删除USB0-VBUSDET检测电路
+
+12 CODEC
+1. 删除PA-SHDN重复的下拉电阻R168
+
+13 WIFI+BT
+1. 26M晶振删除CL=16pF，改为10ppm
+2. XTAL-IN和XTAL-OUT R184和R185去掉1%精度要求
+3. WIFI模组PIN8 VBAT供电由VBAT-EXT改为VCC-WIFI-IO
+4. WIFI模组SDIO和UART上拉供电由VCC-WIFI-IO改为VCC-3V3
+
+OPTION 05 DDR3-8x4
+1. 更正LPDDR3为DDR3的描述错误
+
+
+
+V1.01 20140829
+=============================================================
+03 POWER TREE
+1. 将WIFI IO供电由DCDC1更换到DLDO1
+
+07 POWER
+1. 增加DLDO1作为WIFI+BT模组的供电
+
+13 WIFI+BT
+1. 修改WIFI+BT 天线ANT1电路：删除TUNING网络/删除C255和C256电容
+2. 统一USB WIFI的50 ohm颜色标注
+3. 纠正ohm的笔误
+
+V1.0 20140821
+=============================================================
+for release
+
+
+
+ 

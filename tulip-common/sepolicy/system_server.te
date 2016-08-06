@@ -1,0 +1,9 @@
+allow system_server disp_device:chr_file rw_file_perms;
+allow system_server fuse:dir search;
+allow system_server init:unix_dgram_socket sendto;
+allow system_server tmpfs:file r_file_perms;
+allow system_server socket_device:sock_file write;
+allow system_server sayeye:unix_stream_socket connectto;
+allow system_server cedar_device:chr_file rw_file_perms;
+allow system_server {platform_app untrusted_app}:sem rw_ipc_perms;
+allow system_server self:sem create_ipc_perms;

@@ -1,0 +1,31 @@
+diff --git a/include/hardware/camera.h b/include/hardware/camera.h
+index 0ec6b3a..2db261d 100755
+--- a/include/hardware/camera.h
++++ b/include/hardware/camera.h
+@@ -153,16 +153,6 @@ typedef struct camera_device_ops {
+      */
+     int (*preview_enabled)(struct camera_device *);
+ 
+-	/**
+-     * Enable preview mode.
+-     */
+-    int (*enable_preview)(struct camera_device *);
+-
+-	/**
+-     * Disable preview mode.
+-     */
+-    int (*disable_preview)(struct camera_device *);
+-
+     /**
+      * Request the camera HAL to store meta data or real YUV data in the video
+      * buffers sent out via CAMERA_MSG_VIDEO_FRAME for a recording session. If
+@@ -290,7 +280,8 @@ typedef struct camera_device_ops {
+      * Dump state of the camera hardware
+      */
+     int (*dump)(struct camera_device *, int fd);
+-	int (*set_fd)(struct camera_device *, int fd);
++
++    int (*set_fd)(struct camera_device *, int fd);
+ } camera_device_ops_t;
+ 
+ typedef struct camera_device {

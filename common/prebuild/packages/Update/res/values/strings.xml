@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, UpdateActivity!</string>
+    <string name="app_name">Update</string>
+    <string name="update_online">Online update</string>
+    <string name="update_local">Local update</string>
+    <string name="help">Help</string>
+    <string name="check_connecting">now is connecting to server...</string>
+    <string name="update_package_device_plug_in">This device carry a update package,do you want to update system?</string>
+    <string name="menu_check">Check update</string>
+    <string name="pack_img_card">Img update</string>
+    <string name="ota_update">OTA zip update</string>
+    <string name="install_ota_help">Start OTA update</string>
+    <string name="verifying">Verifying</string>
+    <string name="copying">Copying</string>
+    <string name="menu_has_newversion">Discovery a new version!</string>
+    <string name="menu_has_not_newnewsion">Now is the lastest version</string>
+    <string name="menu_go_on_download">Keep download</string>
+    <string name="notification_download_title">Download the package now!</string>
+    <string name="menu_update">Update right now!</string>
+    <string name="menu_download">Download the lastest package</string>
+    <string name="install_ota_output_confirm">This action can not be interrupted when you are updating, please backup you data.</string>
+    <string name="install_ota_output_start">Start update...please do not cut down the power</string>
+    <string name="install_ota_output_checking">Checking the package...</string>
+    <string name="install_ota_output_check_ok">Package verify successfully...</string>
+    <string name="install_ota_output_check_error">Verifying failed，please check you package.</string>
+    <string name="install_ota_output_copying">Copying...</string>
+    <string name="install_ota_output_copy_ok">Copying complete...</string>
+    <string name="install_ota_output_copy_failed">Copy failed, please check you free space.</string>
+    <string name="install_ota_output_restart">Ready to restart system...</string>
+    <string name="confirm_update">Update</string>
+    <string name="confirm_cancel">Cancel</string>
+    <string name="download_cancel">Cancel</string>
+    <string name="download_download">Download</string>
+    <string name="download_pause">Pause</string>
+    <string name="download_resume">Resume</string>
+    <string name="download_back">Check again</string>
+    <string name="download_update">Update right now</string>
+    <string name="download_error">Download failed!Please check your network!</string>
+    <string name="net_error">Check failed!Please check your network!</string>
+    <string name="download_message">Download is not finished, go on?</string>
+    <string name="download_title">Download notification</string>
+    <string name="sure">Sure</string>
+    <string name="cancel">Cancel</string>
+    <string name="check_now">Checking, please wait...</string>
+    <string name="check_failed">Undiscover new version</string>
+    <string name="check_succeed">Discover a new version!</string>
+    <string name="check_unknown">Unknown error</string>
+    <string name="Download_succeed">Package download finish, please click to update.</string>
+    <string name="Download_failed">Package download finish, but it can not pass the verify, please check your network.</string>
+
+</resources>

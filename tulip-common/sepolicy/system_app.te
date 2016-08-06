@@ -1,0 +1,6 @@
+allow system_app cache_file:dir {write add_name create};
+allow system_app system_app_data_file:file { execute execute_no_trans };
+allow system_app ctl_default_prop:property_service set;
+allow system_app cedar_device:chr_file rw_file_perms;
+allow system_app {platform_app untrusted_app}:sem rw_ipc_perms;
+allow system_app mediaserver:sem rw_ipc_perms;

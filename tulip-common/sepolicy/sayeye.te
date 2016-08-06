@@ -1,0 +1,6 @@
+type sayeye, domain;
+type sayeye_exec, exec_type, file_type;
+init_daemon_domain(sayeye)
+
+allow sayeye sysfs:file write;
+allow sayeye sysfs_devices_system_cpu:file write;

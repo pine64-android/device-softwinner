@@ -1,0 +1,21 @@
+db1000
+eth: 1000M
+DDR: double face. params for 4*512 (2G)  or 4*256 (1G)
+LCD: No
+TP: No
+Camera: HD 720P USB Camera
+
+
+
+device:     db
+eth:        100/1000
+lcd,tp:     yes/no
+ddr:        1face/2face/lpddr3
+
+db1000_1face
+db1000_2face [default]
+db1000_lpddr3
+db1000_lcd_1face
+db1000_lcd_2face
+db1000_lcd_lpddr3
+

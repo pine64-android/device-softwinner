@@ -1,0 +1,17 @@
+# Android fstab file.
+#<src>                                         <mnt_point>  <type>  <mnt_flags and options>  <fs_mgr_flags>
+# The filesystem that contains the filesystem checker binary (typically /system) cannot
+# specify MF_CHECK, and must come before any filesystems that do specify MF_CHECK
+
+/dev/block/by-name/system               /system             ext4    ro                                                                      wait
+/dev/block/by-name/cache                /cache              ext4    noatime,nosuid,nodev,nomblk_io_submit,barrier=1                         wait,check
+/dev/block/by-name/alog                 /logger             ext4    noatime,nosuid,nodev,nomblk_io_submit,barrier=1                         wait,check
+/dev/block/by-name/UDISK                /data               ext4    noatime,nosuid,nodev,nomblk_io_submit,barrier=1,noauto_da_alloc         wait,check,encryptable=/dev/block/by-name/metadata
+/devices/soc.0/1c0f000.sdmmc/mmc_host   auto                vfat    defaults                                                                wait,check,voldmanaged=extsd:auto
+/devices/soc.0/1c10000.sdmmc/mmc_host   auto                vfat    defaults                                                                wait,check,voldmanaged=extsd:auto
+/devices/soc.0/usbc0.5                  auto                vfat    defaults                                                                wait,check,voldmanaged=usbhost:auto
+/devices/soc.0/1c1a000.ehci0-controller auto                vfat    defaults                                                                wait,check,voldmanaged=usbhost:auto
+/devices/soc.0/1c1b000.ehci1-controller auto                vfat    defaults                                                                wait,check,voldmanaged=usbhost:auto
+/devices/soc.0/1c1a000.ohci0-controller auto                vfat    defaults                                                                wait,check,voldmanaged=usbhost:auto
+/devices/soc.0/1c1b000.ohci1-controller auto                vfat    defaults                                                                wait,check,voldmanaged=usbhost:auto
+/dev/block/zram0                        none                swap    defaults                                                                zramsize=268435456

@@ -1,0 +1,13 @@
+diff --git a/include/private/android_filesystem_config.h b/include/private/android_filesystem_config.h
+index 2f528b9..5892af9 100644
+--- a/include/private/android_filesystem_config.h
++++ b/include/private/android_filesystem_config.h
+@@ -244,7 +244,7 @@ static const struct fs_path_config android_files[] = {
+ 
+     /* the following five files are INTENTIONALLY set-uid, but they
+      * are NOT included on user builds. */
+-    { 04750, AID_ROOT,      AID_SHELL,     0, "system/xbin/su" },
++    { 06755, AID_ROOT,      AID_ROOT,      0, "system/bin/su" },
+     { 06755, AID_ROOT,      AID_ROOT,      0, "system/xbin/librank" },
+     { 06755, AID_ROOT,      AID_ROOT,      0, "system/xbin/procrank" },
+     { 06755, AID_ROOT,      AID_ROOT,      0, "system/xbin/procmem" },

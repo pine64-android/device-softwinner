@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, UpdateActivity!</string>
+    <string name="app_name">升级</string>
+    <string name="update_online">在线升级</string>
+    <string name="update_local">本地升级</string>
+    <string name="help">帮助</string>
+    <string name="check_connecting">正在连接服务器...</string>
+    <string name="update_package_device_plug_in">插入的设备中包含新版本的升级包，请问是否进行系统升级?</string>
+    <string name="menu_check">检查更新</string>
+    <string name="pack_img_card">制作升级卡</string>
+    <string name="ota_update">进行OTA升级</string>
+    <string name="install_ota_help">开始OTA升级</string>
+    <string name="verifying">正在校验</string>
+    <string name="copying">正在拷贝</string>
+    <string name="menu_has_newversion">有新版本，点击下载！</string>
+    <string name="menu_has_not_newnewsion">已是最新版本</string>
+    <string name="menu_go_on_download">继续下载</string>
+    <string name="notification_download_title">正在下载更新包</string>
+    <string name="menu_update">马上升级</string>
+    <string name="menu_download">下载最新更新包</string>
+    <string name="install_ota_output_confirm">升级过程中，动作不能被中断，请备份好您的数据.</string>
+    <string name="install_ota_output_start">开始升级...过程当中请勿断电</string>
+    <string name="install_ota_output_checking">正在校验升级包...</string>
+    <string name="install_ota_output_check_ok">升级包校验通过...</string>
+    <string name="install_ota_output_check_error">升级包校验失败，请重新检查您的升级包！</string>
+    <string name="install_ota_output_copying">正在复制文件...</string>
+    <string name="install_ota_output_copy_ok">复制完成...</string>
+    <string name="install_ota_output_copy_failed">复制失败，请检查您的磁盘空间！</string>
+    <string name="install_ota_output_restart">正在重启系统，开始升级...</string>
+    <string name="confirm_update">升级</string>
+    <string name="confirm_cancel">取消</string>
+    <string name="download_cancel">取消</string>
+    <string name="download_download">下载</string>
+    <string name="download_pause">暂停</string>
+    <string name="download_resume">继续</string>
+    <string name="download_back">返回重新检查</string>
+    <string name="download_update">马上升级</string>
+    <string name="download_error">下载失败,请检查网络!</string>
+    <string name="net_error">检查更新失败，请检查网络</string>
+    <string name="download_title">下载提示！</string>
+    <string name="download_message">上次下载没有完成，是否继续？</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="check_now">正在检查更新，请稍后...</string>
+    <string name="check_failed">没有发现新固件!</string>
+    <string name="check_succeed">发现新固件!</string>
+    <string name="check_unknown">遇到未知错误!</string>
+    <string name="Download_succeed">固件下载完成，点击进行升级</string>
+    <string name="Download_failed">固件下载完成，但是校验失败，请检查网络</string>
+
+</resources>

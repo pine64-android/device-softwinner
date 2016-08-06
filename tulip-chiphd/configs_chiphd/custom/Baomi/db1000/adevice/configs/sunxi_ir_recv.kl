@@ -1,0 +1,36 @@
+key 1     1
+key 2     2
+key 3     3
+key 4     4
+key 5     5
+key 6     6
+key 7     7
+key 8     8
+key 9     9
+key 255   0
+key 12    DEL
+key 68    SPACE
+
+key 29    MENU
+key 26	  HOME
+key 69    BACK
+key 13    ENTER
+key 11    DPAD_UP
+key 16    DPAD_LEFT
+key 17    DPAD_RIGHT
+key 14    DPAD_DOWN
+
+key 243   VOLUME_MUTE
+key 245   VOLUME_UP
+key 24    VOLUME_UP
+key 244	  VOLUME_DOWN
+key 23	  VOLUME_DOWN
+
+key 31   MEDIA_PREVIOUS
+key 30   MEDIA_NEXT
+#key 13   MEDIA_PLAY_PAUSE
+
+key 241   POWER
+key 77    POWER
+
+key 71    MOUSE

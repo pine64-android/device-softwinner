@@ -1,0 +1,226 @@
+diff --git a/hwc/tulip/hwc.h b/hwc/tulip/hwc.h
+index a7dc6d4..c6de427 100755
+--- a/hwc/tulip/hwc.h
++++ b/hwc/tulip/hwc.h
+@@ -312,6 +312,7 @@ typedef struct{
+     bool                VsyncEnable;
+     bool                issecure;
+     bool                active;
++    bool                setblank;
+     
+     int                 HwChannelNum;
+     int                 LayerNumofCH;
+diff --git a/hwc/tulip/hwc_others.cpp b/hwc/tulip/hwc_others.cpp
+index 7c7b178..6f0a792 100755
+--- a/hwc/tulip/hwc_others.cpp
++++ b/hwc/tulip/hwc_others.cpp
+@@ -129,6 +129,8 @@ int _hwc_device_set_enhancemode(int disp, bool on_off, bool half)
+ int _hwc_device_set_output_mode(int disp, int out_type, int out_mode)
+ {
+     SUNXI_hwcdev_context_t *Globctx = &gSunxiHwcDevice;
++    if(Globctx->SunxiDisplay[0].DisplayType == DISP_OUTPUT_TYPE_HDMI)
++        disp = 0;
+     DisplayInfo   *PsDisplayInfo = &Globctx->SunxiDisplay[disp];
+     int disp_t;
+ 
+@@ -147,6 +149,8 @@ int _hwc_set_persent(int disp,int para0, int para1)
+ {
+     SUNXI_hwcdev_context_t *Globctx = &gSunxiHwcDevice;
+     DisplayInfo   *PsDisplayInfo = NULL;
++    if(Globctx->SunxiDisplay[0].DisplayType == DISP_OUTPUT_TYPE_HDMI)
++        disp = 0;
+     
+     PsDisplayInfo = &Globctx->SunxiDisplay[disp];
+     if(PsDisplayInfo->VirtualToHWDisplay != -1 && PsDisplayInfo->DisplayType == DISP_OUTPUT_TYPE_HDMI)
+diff --git a/hwc/tulip/hwc_sunxi.cpp b/hwc/tulip/hwc_sunxi.cpp
+index 1be4082..56740da 100755
+--- a/hwc/tulip/hwc_sunxi.cpp
++++ b/hwc/tulip/hwc_sunxi.cpp
+@@ -924,6 +924,24 @@ static bool resize_layer(HwcDisContext_t *Localctx,
+ 	    layer_info->fb.crop.y = fb_crop->top + ((cut_top == 1) ? cut_mod:0);
+ 		layer_info->fb.crop.height = srcdiff - cut_mod;
+     }
++
++#if defined(HWC_DEBUG)
++        ALOGD("\nold:\n[%f,%f]#S[%lld,%lld,%lld,%lld] F[%lld,%lld,%lld,%lld]\n",
++            Localctx->WidthScaleFactor, Localctx->HighetScaleFactor,
++            layer_info->fb.crop.x, layer_info->fb.crop.y, layer_info->fb.crop.width,
++            layer_info->fb.crop.height, layer_info->screen_win.x, layer_info->screen_win.y,
++            layer_info->screen_win.width, layer_info->screen_win.height);
++#endif
++
++    if(gSunxiHwcDevice.SunxiDisplay[0].DisplayType == DISP_OUTPUT_TYPE_HDMI) {
++	    layer_info->fb.crop.x = (long long)(((long long)(psLayer->sourceCrop.left)) << 32);
++	    layer_info->fb.crop.width = (long long)(((long long)(psLayer->sourceCrop.right)) << 32);
++	    layer_info->fb.crop.width -= layer_info->fb.crop.x;
++	    layer_info->fb.crop.y = (long long)(((long long)(psLayer->sourceCrop.top)) << 32);
++	    layer_info->fb.crop.height = (long long)(((long long)(psLayer->sourceCrop.bottom)) << 32);
++	    layer_info->fb.crop.height -= layer_info->fb.crop.y;
++    }
++
+     if(layer_info->b_trd_out == 1)
+     {
+         switch(PsDisplayInfo->Current3DMode)
+@@ -1342,6 +1360,7 @@ int hwc_setup_layer(hwc_dispc_data_t *DisplayData, HwcDisContext_t *Localctx)
+     const DisplayInfo *PsDisplayInfo = Localctx->psDisplayInfo;
+     ChannelInfo_t *psChannelInfo = Localctx->ChannelInfo;
+     struct private_handle_t *handle = NULL;
++    bool enableLayer = !(PsDisplayInfo->setblank);
+ 
+     ture_disp = PsDisplayInfo->VirtualToHWDisplay;
+     if(ture_disp < 0 || ture_disp >= NUMBEROFDISPLAY)
+@@ -1411,7 +1430,7 @@ int hwc_setup_layer(hwc_dispc_data_t *DisplayData, HwcDisContext_t *Localctx)
+             layer_info->zorder = zOrder;
+             layer_info->alpha_value = psChannelInfo[CHCnt].planeAlpha;
+ 
+-            psDisconfig->enable = 1;
++            psDisconfig->enable = enableLayer;
+             psDisconfig->layer_id = LCnt;
+             psDisconfig->channel = psChannelInfo[CHCnt].hasVideo ? VideoCnt : UiCnt;
+             psHwlayer_info->hwchannel = psDisconfig->channel;
+@@ -2014,10 +2033,11 @@ SUNXI_hwcdev_context_t* hwc_create_device(void)
+                 && Globctx->SunxiDisplay[1].VirtualToHWDisplay == -EINVAL)
+             {
+                 hwc_hotplug_switch(1, 1, DISP_TV_MODE_NUM);
++                ALOGD("### init hdmi_plug: IN ###");
+             }
+-            ALOGD("### init hdmi_plug: IN ###");
+         }else{
+-            ALOGD("### init hdmi_plug: OUT ###");
++            if(Globctx->SunxiDisplay[0].DisplayType != DISP_OUTPUT_TYPE_HDMI)
++                ALOGD("### init hdmi_plug: OUT ###");
+         }
+         close(open_fd);
+     }else{
+diff --git a/hwc/tulip/hwc_uevent.cpp b/hwc/tulip/hwc_uevent.cpp
+index 29b4ed8..16fe7de 100755
+--- a/hwc/tulip/hwc_uevent.cpp
++++ b/hwc/tulip/hwc_uevent.cpp
+@@ -151,6 +151,7 @@ disp_tv_mode get_suitable_hdmi_mode(int select, disp_tv_mode lastmode)
+     arg[0] = select;
+     int ret, i, j = -1;
+     disp_tv_mode theMostMode = DISP_TV_MODE_NUM;
++    struct disp_output *para;
+     i = sizeof(g_tv_para) / sizeof(g_tv_para[0]);
+     if(lastmode < DISP_TV_MODE_NUM)
+     {
+@@ -162,31 +163,42 @@ disp_tv_mode get_suitable_hdmi_mode(int select, disp_tv_mode lastmode)
+                 return lastmode;
+ 	        }
+     }
+-    while(i > 0)
+-    {
+-        i--;
+-        if(g_tv_para[i].mode == DISP_TV_MOD_1080P_60HZ)
+-        {
+-            j = i;
+-        }
+-        if(j != -1)
+-        {
+-            arg[1] = DISP_OUTPUT_TYPE_HDMI;
+-	        arg[2] = g_tv_para[i].mode;
+-            ret = ioctl(Globctx->DisplayFd, DISP_DEVICE_SWITCH, arg);
+-	        if(ret >= 0)
++
++	if(Globctx->SunxiDisplay[0].DisplayType == DISP_OUTPUT_TYPE_HDMI)
++	{
++		arg[1] = (unsigned long)para;
++		ret = ioctl(Globctx->DisplayFd, DISP_GET_OUTPUT, arg);
++	    if(ret >= 0)
++	    {
++            theMostMode = (disp_tv_mode)para->mode;
++	    }
++	}else{
++	    while(i > 0)
++	    {
++	        i--;
++	        if(g_tv_para[i].mode == DISP_TV_MOD_1080P_60HZ)
+ 	        {
+-                if(theMostMode == DISP_TV_MODE_NUM)
+-                {
+-                    g_tv_para[sizeof(g_tv_para) / sizeof(g_tv_para[0])-1].support = 1<<select;
+-                    theMostMode = g_tv_para[i].mode;
+-                }
+-                g_tv_para[i].support |= 1<<select;
+-	        }else{
+-	            g_tv_para[i].support &= ~(1<<select);
++	            j = i;
+ 	        }
+-        }
+-    }
++	        if(j != -1)
++	        {
++	            arg[1] = DISP_OUTPUT_TYPE_HDMI;
++		        arg[2] = g_tv_para[i].mode;
++	            ret = ioctl(Globctx->DisplayFd, DISP_DEVICE_SWITCH, arg);
++		        if(ret >= 0)
++		        {
++	                if(theMostMode == DISP_TV_MODE_NUM)
++	                {
++	                    g_tv_para[sizeof(g_tv_para) / sizeof(g_tv_para[0])-1].support = 1<<select;
++	                    theMostMode = g_tv_para[i].mode;
++	                }
++	                g_tv_para[i].support |= 1<<select;
++		        }else{
++		            g_tv_para[i].support &= ~(1<<select);
++		        }
++	        }
++	    }
++	}
+     if(theMostMode != DISP_TV_MODE_NUM)
+     {
+         return theMostMode;
+@@ -223,6 +235,7 @@ int hwc_hotplug_switch(int DisplayNum, bool plug, disp_tv_mode set_mode)
+         }
+         if(set_mode != DISP_TV_MODE_NUM)
+         {
++            PsDisplayInfo->setblank = 1;
+             PsDisplayInfo->VarDisplayWidth = get_info_mode(set_mode,WIDTH);
+             PsDisplayInfo->VarDisplayHeight = get_info_mode(set_mode,HEIGHT);
+             PsDisplayInfo->DisplayType = DISP_OUTPUT_TYPE_HDMI;
+@@ -239,11 +252,16 @@ int hwc_hotplug_switch(int DisplayNum, bool plug, disp_tv_mode set_mode)
+                 PsDisplayInfo->InitDisplayWidth = PsDisplayInfo->VarDisplayWidth;
+             }
+             Globctx->memlimit += PsDisplayInfo->InitDisplayHeight * PsDisplayInfo->InitDisplayWidth * 4;
+-            Globctx->hot_plug = 1;
++            if(Globctx->SunxiDisplay[0].DisplayType != DISP_OUTPUT_TYPE_HDMI)
++            {
++                Globctx->hot_plug = 1;
++            }
+             arg[0] = DisplayNum;
+             arg[1] = DISP_OUTPUT_TYPE_HDMI;
+             arg[2] = set_mode;
+             ioctl(Globctx->DisplayFd, DISP_DEVICE_SWITCH, (unsigned long)arg);
++            PsDisplayInfo->setblank = 0;
++            Globctx->psHwcProcs->invalidate(Globctx->psHwcProcs);
+             arg[0] = DisplayNum;
+             arg[1] = 1;
+             ioctl(Globctx->DisplayFd, DISP_VSYNC_EVENT_EN,(unsigned long)arg);
+@@ -255,7 +273,8 @@ int hwc_hotplug_switch(int DisplayNum, bool plug, disp_tv_mode set_mode)
+         ALOGD( "###hdmi plug in, Type:%d, Mode:0x%08x###",
+                 PsDisplayInfo->DisplayType, PsDisplayInfo->DisplayMode);
+         
+-    }else{
++    }
++    else if(Globctx->SunxiDisplay[0].DisplayType != DISP_OUTPUT_TYPE_HDMI){
+         Globctx->hot_plug = 0;
+         hwc_manage_display(NULL, DisplayNum ,FREE_DISP);
+     }
+@@ -270,7 +289,7 @@ int hwc_hotplug_switch(int DisplayNum, bool plug, disp_tv_mode set_mode)
+     }else{
+         ALOGD("###psHwcProcs  No register.###");
+     }
+-    if(!plug)
++    if(!plug && Globctx->SunxiDisplay[0].DisplayType != DISP_OUTPUT_TYPE_HDMI)
+     {
+         arg[0] = DisplayNum;
+         arg[1] = DISP_OUTPUT_TYPE_NONE; 
+@@ -405,7 +424,7 @@ static int hwc_uevent(void)
+                     }
+                 }
+ 
+-                if(IsHdmi)
++                if(IsHdmi && Globctx->SunxiDisplay[0].DisplayType != DISP_OUTPUT_TYPE_HDMI)
+                 {
+                     while(s)
+                     {

@@ -1,0 +1,2 @@
+allow sdcardd unlabeled:dir { getattr read open };
+allow sdcardd system_data_file:dir rw_dir_perms;

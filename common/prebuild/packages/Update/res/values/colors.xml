@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="block_line_blue">#553f848e</color> 
+	<color name="block_inner_blue">#FF56c1df</color>
+    
+	<color name="block_light_blue">#FF9de4f8</color> 
+</resources>

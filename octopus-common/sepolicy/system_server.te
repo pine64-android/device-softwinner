@@ -1,0 +1,8 @@
+allow system_server disp_device:chr_file rw_file_perms;
+allow system_server fuse:dir search;
+allow system_server gps_data_file:dir rw_dir_perms;
+allow system_server gps_data_file:fifo_file { setattr create_file_perms };
+allow system_server init:unix_dgram_socket sendto;
+allow system_server tmpfs:file r_file_perms;
+allow system_server socket_device:sock_file write;
+allow system_server sayeye:unix_stream_socket connectto;

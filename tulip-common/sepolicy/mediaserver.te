@@ -1,0 +1,10 @@
+allow mediaserver cedar_device:chr_file rw_file_perms;
+allow mediaserver {platform_app system_app}:dir search;
+allow mediaserver {platform_app system_app}:file {read open};
+allow mediaserver untrusted_app:dir search;
+allow mediaserver untrusted_app:file {read open};
+allow mediaserver system_prop:property_service {set};
+allow mediaserver default_prop:property_service { set };
+allow mediaserver platform_app:sem { create destroy unix_read unix_write associate read write };
+allow mediaserver untrusted_app:sem { create destroy unix_read unix_write associate read write };
+allow mediaserver self:sem { create destroy unix_read unix_write associate read write };

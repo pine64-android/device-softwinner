@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- used by AWGallery.apk -->
+<cfgOverrides>
+		<!-- reverse 1:enabled 0:disabled -->
+    <cfgOverride
+    		id="0"
+        name="fullscreen"
+        value="1"/>
+</cfgOverrides>

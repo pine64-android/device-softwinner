@@ -1,0 +1,6 @@
+db1000_lcd
+eth: 1000M
+DDR: double face. 4*512 (2G) 4*256(1G)
+LCD: mb709_mipi
+TP: gt911_DB, gt911_DB2
+Camera: hm5065, s5k4ec

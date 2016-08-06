@@ -1,0 +1,829 @@
+diff --git a/api/current.txt b/api/current.txt
+index 015e838..47d9a22 100755
+--- a/api/current.txt
++++ b/api/current.txt
+@@ -25675,7 +25675,7 @@ package android.provider {
+     field public static final java.lang.String HDMI_PERSENT = "hdmi_persent";
+     field public static final deprecated java.lang.String HTTP_PROXY = "http_proxy";
+     field public static final deprecated java.lang.String INSTALL_NON_MARKET_APPS = "install_non_market_apps";
+-    field public static final java.lang.String KILL_BACKGROUND_SERVICES = "kill_background_services";
++    field public static final java.lang.String KILL_BACKGROUND_SERVICES = "kill_background_services";
+     field public static final deprecated java.lang.String LOCATION_PROVIDERS_ALLOWED = "location_providers_allowed";
+     field public static final deprecated java.lang.String LOCK_PATTERN_ENABLED = "lock_pattern_autolock";
+     field public static final deprecated java.lang.String LOCK_PATTERN_TACTILE_FEEDBACK_ENABLED = "lock_pattern_tactile_feedback_enabled";
+@@ -25683,6 +25683,7 @@ package android.provider {
+     field public static final deprecated java.lang.String LOGGING_ID = "logging_id";
+     field public static final deprecated java.lang.String MODE_RINGER = "mode_ringer";
+     field public static final java.lang.String MODE_RINGER_STREAMS_AFFECTED = "mode_ringer_streams_affected";
++    field public static final java.lang.String MOUSE_ADVANCE = "mouse_advance";
+     field public static final java.lang.String MUTE_STREAMS_AFFECTED = "mute_streams_affected";
+     field public static final deprecated java.lang.String NETWORK_PREFERENCE = "network_preference";
+     field public static final deprecated java.lang.String NEXT_ALARM_FORMATTED = "next_alarm_formatted";
+@@ -32701,9 +32702,11 @@ package android.view {
+     field public static final int KEYCODE_ALT_LEFT = 57; // 0x39
+     field public static final int KEYCODE_ALT_RIGHT = 58; // 0x3a
+     field public static final int KEYCODE_APOSTROPHE = 75; // 0x4b
++    field public static final int KEYCODE_APPS = 10011; // 0x271b
+     field public static final int KEYCODE_APP_SWITCH = 187; // 0xbb
+     field public static final int KEYCODE_ASSIST = 219; // 0xdb
+     field public static final int KEYCODE_AT = 77; // 0x4d
++    field public static final int KEYCODE_AUDIO = 10003; // 0x2713
+     field public static final int KEYCODE_AVR_INPUT = 182; // 0xb6
+     field public static final int KEYCODE_AVR_POWER = 181; // 0xb5
+     field public static final int KEYCODE_B = 30; // 0x1e
+@@ -32713,6 +32716,7 @@ package android.view {
+     field public static final int KEYCODE_BREAK = 121; // 0x79
+     field public static final int KEYCODE_BRIGHTNESS_DOWN = 220; // 0xdc
+     field public static final int KEYCODE_BRIGHTNESS_UP = 221; // 0xdd
++    field public static final int KEYCODE_BROWSER = 10012; // 0x271c
+     field public static final int KEYCODE_BUTTON_1 = 188; // 0xbc
+     field public static final int KEYCODE_BUTTON_10 = 197; // 0xc5
+     field public static final int KEYCODE_BUTTON_11 = 198; // 0xc6
+@@ -32773,6 +32777,7 @@ package android.view {
+     field public static final int KEYCODE_ENVELOPE = 65; // 0x41
+     field public static final int KEYCODE_EQUALS = 70; // 0x46
+     field public static final int KEYCODE_ESCAPE = 111; // 0x6f
++    field public static final int KEYCODE_EXPAND = 10008; // 0x2718
+     field public static final int KEYCODE_EXPLORER = 64; // 0x40
+     field public static final int KEYCODE_F = 34; // 0x22
+     field public static final int KEYCODE_F1 = 131; // 0x83
+@@ -32787,11 +32792,13 @@ package android.view {
+     field public static final int KEYCODE_F7 = 137; // 0x89
+     field public static final int KEYCODE_F8 = 138; // 0x8a
+     field public static final int KEYCODE_F9 = 139; // 0x8b
++    field public static final int KEYCODE_FAVOURITE = 10006; // 0x2716
+     field public static final int KEYCODE_FOCUS = 80; // 0x50
+     field public static final int KEYCODE_FORWARD = 125; // 0x7d
+     field public static final int KEYCODE_FORWARD_DEL = 112; // 0x70
+     field public static final int KEYCODE_FUNCTION = 119; // 0x77
+     field public static final int KEYCODE_G = 35; // 0x23
++    field public static final int KEYCODE_GOTO = 10001; // 0x2711
+     field public static final int KEYCODE_GRAVE = 68; // 0x44
+     field public static final int KEYCODE_GUIDE = 172; // 0xac
+     field public static final int KEYCODE_H = 36; // 0x24
+@@ -32806,10 +32813,13 @@ package android.view {
+     field public static final int KEYCODE_K = 39; // 0x27
+     field public static final int KEYCODE_KANA = 218; // 0xda
+     field public static final int KEYCODE_KATAKANA_HIRAGANA = 215; // 0xd7
++    field public static final int KEYCODE_KOUT_VOLUME_DOWN = 373; // 0x175
++    field public static final int KEYCODE_KOUT_VOLUME_UP = 372; // 0x174
+     field public static final int KEYCODE_L = 40; // 0x28
+     field public static final int KEYCODE_LANGUAGE_SWITCH = 204; // 0xcc
+     field public static final int KEYCODE_LAST_CHANNEL = 229; // 0xe5
+     field public static final int KEYCODE_LEFT_BRACKET = 71; // 0x47
++    field public static final int KEYCODE_LOOP = 10007; // 0x2717
+     field public static final int KEYCODE_M = 41; // 0x29
+     field public static final int KEYCODE_MANNER_MODE = 205; // 0xcd
+     field public static final int KEYCODE_MEDIA_AUDIO_TRACK = 222; // 0xde
+@@ -32828,9 +32838,13 @@ package android.view {
+     field public static final int KEYCODE_MENU = 82; // 0x52
+     field public static final int KEYCODE_META_LEFT = 117; // 0x75
+     field public static final int KEYCODE_META_RIGHT = 118; // 0x76
++    field public static final int KEYCODE_MIC_VOLUME_DOWN = 371; // 0x173
++    field public static final int KEYCODE_MIC_VOLUME_UP = 370; // 0x172
+     field public static final int KEYCODE_MINUS = 69; // 0x45
++    field public static final int KEYCODE_MOUSE = 10009; // 0x2719
+     field public static final int KEYCODE_MOVE_END = 123; // 0x7b
+     field public static final int KEYCODE_MOVE_HOME = 122; // 0x7a
++    field public static final int KEYCODE_MOVIE = 10010; // 0x271a
+     field public static final int KEYCODE_MUHENKAN = 213; // 0xd5
+     field public static final int KEYCODE_MUSIC = 209; // 0xd1
+     field public static final int KEYCODE_MUTE = 91; // 0x5b
+@@ -32877,6 +32891,7 @@ package android.view {
+     field public static final int KEYCODE_RIGHT_BRACKET = 72; // 0x48
+     field public static final int KEYCODE_RO = 217; // 0xd9
+     field public static final int KEYCODE_S = 47; // 0x2f
++    field public static final int KEYCODE_SCREENSHOT = 10013; // 0x271d
+     field public static final int KEYCODE_SCROLL_LOCK = 116; // 0x74
+     field public static final int KEYCODE_SEARCH = 84; // 0x54
+     field public static final int KEYCODE_SEMICOLON = 74; // 0x4a
+@@ -32891,6 +32906,7 @@ package android.view {
+     field public static final int KEYCODE_STAR = 17; // 0x11
+     field public static final int KEYCODE_STB_INPUT = 180; // 0xb4
+     field public static final int KEYCODE_STB_POWER = 179; // 0xb3
++    field public static final int KEYCODE_SUBTITLE = 10002; // 0x2712
+     field public static final int KEYCODE_SWITCH_CHARSET = 95; // 0x5f
+     field public static final int KEYCODE_SYM = 63; // 0x3f
+     field public static final int KEYCODE_SYSRQ = 120; // 0x78
+@@ -32922,6 +32938,7 @@ package android.view {
+     field public static final int KEYCODE_TV_SATELLITE_BS = 238; // 0xee
+     field public static final int KEYCODE_TV_SATELLITE_CS = 239; // 0xef
+     field public static final int KEYCODE_TV_SATELLITE_SERVICE = 240; // 0xf0
++    field public static final int KEYCODE_TV_SYSTEM = 10000; // 0x2710
+     field public static final int KEYCODE_TV_TELETEXT = 233; // 0xe9
+     field public static final int KEYCODE_TV_TERRESTRIAL_ANALOG = 235; // 0xeb
+     field public static final int KEYCODE_TV_TERRESTRIAL_DIGITAL = 236; // 0xec
+@@ -32942,6 +32959,7 @@ package android.view {
+     field public static final int KEYCODE_YEN = 216; // 0xd8
+     field public static final int KEYCODE_Z = 54; // 0x36
+     field public static final int KEYCODE_ZENKAKU_HANKAKU = 211; // 0xd3
++    field public static final int KEYCODE_ZOOM = 10004; // 0x2714
+     field public static final int KEYCODE_ZOOM_IN = 168; // 0xa8
+     field public static final int KEYCODE_ZOOM_OUT = 169; // 0xa9
+     field public static final deprecated int MAX_KEYCODE = 84; // 0x54
+diff --git a/api/system-current.txt b/api/system-current.txt
+index 5d4afe9..862e851 100644
+--- a/api/system-current.txt
++++ b/api/system-current.txt
+@@ -27267,7 +27267,7 @@ package android.provider {
+     field public static final java.lang.String HDMI_PERSENT = "hdmi_persent";
+     field public static final deprecated java.lang.String HTTP_PROXY = "http_proxy";
+     field public static final deprecated java.lang.String INSTALL_NON_MARKET_APPS = "install_non_market_apps";
+-    field public static final java.lang.String KILL_BACKGROUND_SERVICES = "kill_background_services";
++    field public static final java.lang.String KILL_BACKGROUND_SERVICES = "kill_background_services";
+     field public static final deprecated java.lang.String LOCATION_PROVIDERS_ALLOWED = "location_providers_allowed";
+     field public static final deprecated java.lang.String LOCK_PATTERN_ENABLED = "lock_pattern_autolock";
+     field public static final deprecated java.lang.String LOCK_PATTERN_TACTILE_FEEDBACK_ENABLED = "lock_pattern_tactile_feedback_enabled";
+@@ -27275,6 +27275,7 @@ package android.provider {
+     field public static final deprecated java.lang.String LOGGING_ID = "logging_id";
+     field public static final deprecated java.lang.String MODE_RINGER = "mode_ringer";
+     field public static final java.lang.String MODE_RINGER_STREAMS_AFFECTED = "mode_ringer_streams_affected";
++    field public static final java.lang.String MOUSE_ADVANCE = "mouse_advance";
+     field public static final java.lang.String MUTE_STREAMS_AFFECTED = "mute_streams_affected";
+     field public static final deprecated java.lang.String NETWORK_PREFERENCE = "network_preference";
+     field public static final deprecated java.lang.String NEXT_ALARM_FORMATTED = "next_alarm_formatted";
+@@ -34934,9 +34935,11 @@ package android.view {
+     field public static final int KEYCODE_ALT_LEFT = 57; // 0x39
+     field public static final int KEYCODE_ALT_RIGHT = 58; // 0x3a
+     field public static final int KEYCODE_APOSTROPHE = 75; // 0x4b
++    field public static final int KEYCODE_APPS = 10011; // 0x271b
+     field public static final int KEYCODE_APP_SWITCH = 187; // 0xbb
+     field public static final int KEYCODE_ASSIST = 219; // 0xdb
+     field public static final int KEYCODE_AT = 77; // 0x4d
++    field public static final int KEYCODE_AUDIO = 10003; // 0x2713
+     field public static final int KEYCODE_AVR_INPUT = 182; // 0xb6
+     field public static final int KEYCODE_AVR_POWER = 181; // 0xb5
+     field public static final int KEYCODE_B = 30; // 0x1e
+@@ -34946,6 +34949,7 @@ package android.view {
+     field public static final int KEYCODE_BREAK = 121; // 0x79
+     field public static final int KEYCODE_BRIGHTNESS_DOWN = 220; // 0xdc
+     field public static final int KEYCODE_BRIGHTNESS_UP = 221; // 0xdd
++    field public static final int KEYCODE_BROWSER = 10012; // 0x271c
+     field public static final int KEYCODE_BUTTON_1 = 188; // 0xbc
+     field public static final int KEYCODE_BUTTON_10 = 197; // 0xc5
+     field public static final int KEYCODE_BUTTON_11 = 198; // 0xc6
+@@ -35006,6 +35010,7 @@ package android.view {
+     field public static final int KEYCODE_ENVELOPE = 65; // 0x41
+     field public static final int KEYCODE_EQUALS = 70; // 0x46
+     field public static final int KEYCODE_ESCAPE = 111; // 0x6f
++    field public static final int KEYCODE_EXPAND = 10008; // 0x2718
+     field public static final int KEYCODE_EXPLORER = 64; // 0x40
+     field public static final int KEYCODE_F = 34; // 0x22
+     field public static final int KEYCODE_F1 = 131; // 0x83
+@@ -35020,11 +35025,13 @@ package android.view {
+     field public static final int KEYCODE_F7 = 137; // 0x89
+     field public static final int KEYCODE_F8 = 138; // 0x8a
+     field public static final int KEYCODE_F9 = 139; // 0x8b
++    field public static final int KEYCODE_FAVOURITE = 10006; // 0x2716
+     field public static final int KEYCODE_FOCUS = 80; // 0x50
+     field public static final int KEYCODE_FORWARD = 125; // 0x7d
+     field public static final int KEYCODE_FORWARD_DEL = 112; // 0x70
+     field public static final int KEYCODE_FUNCTION = 119; // 0x77
+     field public static final int KEYCODE_G = 35; // 0x23
++    field public static final int KEYCODE_GOTO = 10001; // 0x2711
+     field public static final int KEYCODE_GRAVE = 68; // 0x44
+     field public static final int KEYCODE_GUIDE = 172; // 0xac
+     field public static final int KEYCODE_H = 36; // 0x24
+@@ -35039,10 +35046,13 @@ package android.view {
+     field public static final int KEYCODE_K = 39; // 0x27
+     field public static final int KEYCODE_KANA = 218; // 0xda
+     field public static final int KEYCODE_KATAKANA_HIRAGANA = 215; // 0xd7
++    field public static final int KEYCODE_KOUT_VOLUME_DOWN = 373; // 0x175
++    field public static final int KEYCODE_KOUT_VOLUME_UP = 372; // 0x174
+     field public static final int KEYCODE_L = 40; // 0x28
+     field public static final int KEYCODE_LANGUAGE_SWITCH = 204; // 0xcc
+     field public static final int KEYCODE_LAST_CHANNEL = 229; // 0xe5
+     field public static final int KEYCODE_LEFT_BRACKET = 71; // 0x47
++    field public static final int KEYCODE_LOOP = 10007; // 0x2717
+     field public static final int KEYCODE_M = 41; // 0x29
+     field public static final int KEYCODE_MANNER_MODE = 205; // 0xcd
+     field public static final int KEYCODE_MEDIA_AUDIO_TRACK = 222; // 0xde
+@@ -35061,9 +35071,13 @@ package android.view {
+     field public static final int KEYCODE_MENU = 82; // 0x52
+     field public static final int KEYCODE_META_LEFT = 117; // 0x75
+     field public static final int KEYCODE_META_RIGHT = 118; // 0x76
++    field public static final int KEYCODE_MIC_VOLUME_DOWN = 371; // 0x173
++    field public static final int KEYCODE_MIC_VOLUME_UP = 370; // 0x172
+     field public static final int KEYCODE_MINUS = 69; // 0x45
++    field public static final int KEYCODE_MOUSE = 10009; // 0x2719
+     field public static final int KEYCODE_MOVE_END = 123; // 0x7b
+     field public static final int KEYCODE_MOVE_HOME = 122; // 0x7a
++    field public static final int KEYCODE_MOVIE = 10010; // 0x271a
+     field public static final int KEYCODE_MUHENKAN = 213; // 0xd5
+     field public static final int KEYCODE_MUSIC = 209; // 0xd1
+     field public static final int KEYCODE_MUTE = 91; // 0x5b
+@@ -35110,6 +35124,7 @@ package android.view {
+     field public static final int KEYCODE_RIGHT_BRACKET = 72; // 0x48
+     field public static final int KEYCODE_RO = 217; // 0xd9
+     field public static final int KEYCODE_S = 47; // 0x2f
++    field public static final int KEYCODE_SCREENSHOT = 10013; // 0x271d
+     field public static final int KEYCODE_SCROLL_LOCK = 116; // 0x74
+     field public static final int KEYCODE_SEARCH = 84; // 0x54
+     field public static final int KEYCODE_SEMICOLON = 74; // 0x4a
+@@ -35124,6 +35139,7 @@ package android.view {
+     field public static final int KEYCODE_STAR = 17; // 0x11
+     field public static final int KEYCODE_STB_INPUT = 180; // 0xb4
+     field public static final int KEYCODE_STB_POWER = 179; // 0xb3
++    field public static final int KEYCODE_SUBTITLE = 10002; // 0x2712
+     field public static final int KEYCODE_SWITCH_CHARSET = 95; // 0x5f
+     field public static final int KEYCODE_SYM = 63; // 0x3f
+     field public static final int KEYCODE_SYSRQ = 120; // 0x78
+@@ -35155,6 +35171,7 @@ package android.view {
+     field public static final int KEYCODE_TV_SATELLITE_BS = 238; // 0xee
+     field public static final int KEYCODE_TV_SATELLITE_CS = 239; // 0xef
+     field public static final int KEYCODE_TV_SATELLITE_SERVICE = 240; // 0xf0
++    field public static final int KEYCODE_TV_SYSTEM = 10000; // 0x2710
+     field public static final int KEYCODE_TV_TELETEXT = 233; // 0xe9
+     field public static final int KEYCODE_TV_TERRESTRIAL_ANALOG = 235; // 0xeb
+     field public static final int KEYCODE_TV_TERRESTRIAL_DIGITAL = 236; // 0xec
+@@ -35175,6 +35192,7 @@ package android.view {
+     field public static final int KEYCODE_YEN = 216; // 0xd8
+     field public static final int KEYCODE_Z = 54; // 0x36
+     field public static final int KEYCODE_ZENKAKU_HANKAKU = 211; // 0xd3
++    field public static final int KEYCODE_ZOOM = 10004; // 0x2714
+     field public static final int KEYCODE_ZOOM_IN = 168; // 0xa8
+     field public static final int KEYCODE_ZOOM_OUT = 169; // 0xa9
+     field public static final deprecated int MAX_KEYCODE = 84; // 0x54
+diff --git a/cmds/app_process/app_main.cpp b/cmds/app_process/app_main.cpp
+index aa4f3bc..b1b62de 100755
+--- a/cmds/app_process/app_main.cpp
++++ b/cmds/app_process/app_main.cpp
+@@ -199,14 +199,14 @@ static const char ZYGOTE_NICE_NAME[] = "zygote";
+ 
+ int main(int argc, char* const argv[])
+ {
+-    if (prctl(PR_SET_NO_NEW_PRIVS, 1, 0, 0, 0) < 0) {
++    /*if (prctl(PR_SET_NO_NEW_PRIVS, 1, 0, 0, 0) < 0) {
+         // Older kernels don't understand PR_SET_NO_NEW_PRIVS and return
+         // EINVAL. Don't die on such kernels.
+         if (errno != EINVAL) {
+             LOG_ALWAYS_FATAL("PR_SET_NO_NEW_PRIVS failed: %s", strerror(errno));
+             return 12;
+         }
+-    }
++    }*/
+ 
+     AppRuntime runtime(argv[0], computeArgBlockSize(argc, argv));
+     // Process command line arguments
+diff --git a/core/java/android/provider/Settings.java b/core/java/android/provider/Settings.java
+index 2c0f8d5..52ce877 100755
+--- a/core/java/android/provider/Settings.java
++++ b/core/java/android/provider/Settings.java
+@@ -2656,7 +2656,7 @@ public final class Settings {
+ 
+         public static final String GESTURE_SCREENSHOT_ENABLE = "gesture_screenshot_enable";
+         public static final String GESTURE_SCREENRECORD_ENABLE = "gesture_screenrecord_enable";
+-
++		public static final String MOUSE_ADVANCE = "mouse_advance";
+         /*
+          * kill background services
+          * @hide
+diff --git a/core/java/android/view/IWindowManager.aidl b/core/java/android/view/IWindowManager.aidl
+index 7b20e72..476807c 100644
+--- a/core/java/android/view/IWindowManager.aidl
++++ b/core/java/android/view/IWindowManager.aidl
+@@ -263,4 +263,18 @@ interface IWindowManager
+      * @return The frame statistics or null if the window does not exist.
+      */
+     WindowContentFrameStats getWindowContentFrameStats(IBinder token);
++    /**
++     * Sets the current touch exploration state.
++     *
++     * @param enabled Whether touch exploration is enabled.
++     */
++    void keyEnterMouseMode();
++
++    void keyExitMouseMode();
++
++    void keySetMouseMoveCode(int left,int right,int top,int bottom);
++
++    void keySetMouseBtnCode(int leftbtn,int midbtn,int rightbtn);
++
++    void keySetMouseDistance(int distance);
+ }
+diff --git a/core/java/android/view/KeyEvent.java b/core/java/android/view/KeyEvent.java
+index 243a0fc..ca4bfdd 100644
+--- a/core/java/android/view/KeyEvent.java
++++ b/core/java/android/view/KeyEvent.java
+@@ -749,7 +749,7 @@ public class KeyEvent extends InputEvent implements Parcelable {
+     /** Key code constant: Help key. */
+     public static final int KEYCODE_HELP = 259;
+ 
+-    private static final int LAST_KEYCODE = KEYCODE_HELP;
++    //private static final int LAST_KEYCODE = KEYCODE_HELP;
+ 
+     // NOTE: If you add a new keycode here you must also add it to:
+     //  isSystem()
+@@ -759,6 +759,39 @@ public class KeyEvent extends InputEvent implements Parcelable {
+     //  frameworks/base/core/res/res/values/attrs.xml
+     //  emulator?
+     //  LAST_KEYCODE
++
++    /* add by Gary. start {{----------------------------------- */
++	//add for karaok by linjunqian
++	public static final int KEYCODE_MIC_VOLUME_UP 	= 370;
++	public static final int KEYCODE_MIC_VOLUME_DOWN	= 371;
++	public static final int KEYCODE_KOUT_VOLUME_UP 	= 372;
++	public static final int KEYCODE_KOUT_VOLUME_DOWN	= 373;
++	public static final int KEYCODE_TV_SYSTEM       = 10000;
++	/** Key code constant: a shortcut key for a time dialog */
++	public static final int KEYCODE_GOTO            = 10001;
++	/** Key code constant: a shortcut key for switching subtitles */
++	public static final int KEYCODE_SUBTITLE        = 10002;
++	/** Key code constant: a shortcut key for switching tracks */
++	public static final int KEYCODE_AUDIO           = 10003;
++	/** Key code constant: a shortcut key for zooming video */
++	public static final int KEYCODE_ZOOM            = 10004;
++	/** Key code constant: a shortcut key for favourite */
++	public static final int KEYCODE_FAVOURITE       = 10006;
++	/** Key code constant: a shortcut key for loop */
++	public static final int KEYCODE_LOOP            = 10007;
++	/** Key code constant: a shortcut key for showing or hiding statusbar's expanded view */
++	public static final int KEYCODE_EXPAND          = 10008;
++	/** Key code constant: a shortcut key for mouse */
++	public static final int KEYCODE_MOUSE           = 10009;
++	/** Key code constant: a shortcut key for movie */
++	public static final int KEYCODE_MOVIE           = 10010;
++	/** Key code constant: a shortcut key for app list */
++	public static final int KEYCODE_APPS            = 10011;
++	/** Key code constant: a shortcut key for the browser app */
++	public static final int KEYCODE_BROWSER         = 10012;
++	/** Key code constant: a shortcut key for the screenshot */
++	public static final int KEYCODE_SCREENSHOT      = 10013;
++    private static final int LAST_KEYCODE           = KEYCODE_SCREENSHOT;
+     //
+     //  Also Android currently does not reserve code ranges for vendor-
+     //  specific key codes.  If you have new key codes to have, you
+diff --git a/core/jni/com_android_internal_os_Zygote.cpp b/core/jni/com_android_internal_os_Zygote.cpp
+index 4f5e08b..8b136bd 100644
+--- a/core/jni/com_android_internal_os_Zygote.cpp
++++ b/core/jni/com_android_internal_os_Zygote.cpp
+@@ -208,6 +208,7 @@ static void EnableKeepCapabilities(JNIEnv* env) {
+ }
+ 
+ static void DropCapabilitiesBoundingSet(JNIEnv* env) {
++/*
+   for (int i = 0; prctl(PR_CAPBSET_READ, i, 0, 0, 0) >= 0; i++) {
+     int rc = prctl(PR_CAPBSET_DROP, i, 0, 0, 0);
+     if (rc == -1) {
+@@ -220,6 +221,7 @@ static void DropCapabilitiesBoundingSet(JNIEnv* env) {
+       }
+     }
+   }
++*/
+ }
+ 
+ static void SetCapabilities(JNIEnv* env, int64_t permitted, int64_t effective) {
+diff --git a/core/res/res/drawable/key_mouse.png b/core/res/res/drawable/key_mouse.png
+new file mode 100755
+index 0000000000000000000000000000000000000000..6cfdd49dfb9dcdc18ad7b454190aab96e66443ab
+GIT binary patch
+literal 498
+zcmV<O0S*3%P)<h;3K|Lk000e1NJLTq000;O001Tk1^@s6-UnMH00009a7bBm000XU
+z000XU0RWnu7ytkO8FWQhbW?9;ba!ELWdK2BZ(?O2No`?gWm08fWO;GPWjp`?0e?wE
+zK~#9!V*LOAKLafR6D68|{`}bh#CToELWu>RKYtbg(d_K()VJXN{rd_)DglTuiin6%
+z&w`5=F9iUp1|Zgl3QfSLo{^MDK62zJ$kq3O_#+T60OAccHr5BI76-sE4}dZgJUu-&
+zP(2laA{B@kh&7yKAAI@p<pGd7NQxd};=lli1)%H;K>PuR7<K@%02}`I@1Fn=9{}S2
+zNZ0`?hb;a9hz)R=gENSJ{rUw;iuUN@piBjnLl)u(Vo*v_0LpzJIu3w_<YN=ZVgbyO
+z1fbjmqAYm(_MHK~Ncr{aH#T7bqEpfD-@gR#Spbx0peUIFg8-B=9I;4UfXWwOaq$C+
+ziwbf8Rv%oucHMwbA%+Dk(9+UeKuR3glW4&KQsRKNL4+e2Qquw&`+$^mK4OE2_CB~k
+z)0SOqY|ICsFCKz?LIOTOQl$?pqY7}<Qdsc9q@=_HBo}sb=gxBgQU$omdRP&WoSf7^
+om4+AHTi2r&j9Ne+3jhKP0MNB8U`V!7{Qv*}07*qoM6N<$g6`PDS^xk5
+
+literal 0
+HcmV?d00001
+
+diff --git a/core/res/res/values-zh-rCN/strings_custom.xml b/core/res/res/values-zh-rCN/strings_custom.xml
+new file mode 100755
+index 0000000..9d5e110
+--- /dev/null
++++ b/core/res/res/values-zh-rCN/strings_custom.xml
+@@ -0,0 +1,40 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<!-- 
++/* //device/apps/common/assets/res/any/strings.xml
++**
++** Copyright 2006, The Android Open Source Project
++**
++** Licensed under the Apache License, Version 2.0 (the "License");
++** you may not use this file except in compliance with the License.
++** You may obtain a copy of the License at
++**
++**     http://www.apache.org/licenses/LICENSE-2.0
++**
++** Unless required by applicable law or agreed to in writing, software
++** distributed under the License is distributed on an "AS IS" BASIS,
++** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++** See the License for the specific language governing permissions and
++** limitations under the License.
++*/
++ -->
++
++<resources xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
++    <!-- support the mouse mode -->
++    <string name="enter_key_mouse_mode">进入鼠标模式</string>    
++    <string name="exit_key_mouse_mode">退出鼠标模式</string>    
++    <string name="title_key_mouse_mode">鼠标模式</string>    
++    <string name="detail_key_mouse_mode">当前处于鼠标模式</string>    
++    
++    <!-- add by chenjd, message for audio -->
++    <string name="usb_audio_out_plug_in_title">"USB音频输出设备接入"</string>
++    <string name="usb_audio_plug_in_message">"已切换至该音频通道"</string>
++    <string name="usb_audio_plug_out_message">"切换至原始的默认通道"</string>
++    <string name="usb_audio_out_plug_out_title">"USB音频输出设备拔出"</string>
++    <string name="usb_audio_in_plug_in_title">"USB音频输入设备接入"</string>
++    <string name="usb_audio_in_plug_out_title">"USB音频输入设备拔出"</string>
++    <string name="headphone_plug_in_title">"耳机插入"</string>
++    <string name="headphone_plug_out_title">"耳机拔出"</string>
++    <string name="headphone_plug_in_message">"切换至耳机"</string>
++    <string name="headphone_plug_out_message">"切换至原始的默认通道"</string>
++</resources>
+diff --git a/core/res/res/values/public.xml b/core/res/res/values/public.xml
+index 2bb9aa8..659b012 100644
+--- a/core/res/res/values/public.xml
++++ b/core/res/res/values/public.xml
+@@ -19,6 +19,13 @@
+      ***************************************************************
+      *************************************************************** -->
+ <resources>
++  <!-- support the mouse mode -->
++  <java-symbol type="string" name="enter_key_mouse_mode" />
++  <java-symbol type="string" name="exit_key_mouse_mode" />
++  <java-symbol type="string" name="title_key_mouse_mode" />
++  <java-symbol type="string" name="detail_key_mouse_mode" />
++  <!-- an icon for the mouse mode -->
++  <java-symbol type="drawable" name="key_mouse" />
+ 
+ <!-- ===============================================================
+      Resources for version 1 of the platform.
+diff --git a/core/res/res/values/strings_custom.xml b/core/res/res/values/strings_custom.xml
+new file mode 100755
+index 0000000..4535d1a
+--- /dev/null
++++ b/core/res/res/values/strings_custom.xml
+@@ -0,0 +1,40 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<!-- 
++/* //device/apps/common/assets/res/any/strings.xml
++**
++** Copyright 2006, The Android Open Source Project
++**
++** Licensed under the Apache License, Version 2.0 (the "License");
++** you may not use this file except in compliance with the License.
++** You may obtain a copy of the License at
++**
++**     http://www.apache.org/licenses/LICENSE-2.0
++**
++** Unless required by applicable law or agreed to in writing, software
++** distributed under the License is distributed on an "AS IS" BASIS,
++** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++** See the License for the specific language governing permissions and
++** limitations under the License.
++*/
++-->
++
++<resources xmlns:android="http://schemas.android.com/apk/res/android"
++xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
++    <!-- support the mouse mode -->
++	<string name="enter_key_mouse_mode">enter the mouse mode</string>
++	<string name="exit_key_mouse_mode">exit the mouse mode</string>
++	<string name="title_key_mouse_mode">mouse mode</string>
++	<string name="detail_key_mouse_mode">Now is the mouse mode</string>
++	
++	<!-- add by chenjd, message for audio -->
++	<string name="usb_audio_out_plug_in_title">USB Audio-out device plug in</string>
++    <string name="usb_audio_plug_in_message">Switch to USB audio channel</string>
++    <string name="usb_audio_plug_out_message">Change to default channel</string>
++    <string name="usb_audio_out_plug_out_title">USB Audio-out device plug out</string>
++    <string name="usb_audio_in_plug_in_title">USB Audio-in device plug in</string>
++    <string name="usb_audio_in_plug_out_title">USB Audio-in device plug out</string>
++    <string name="headphone_plug_in_title">HeadPhone plug in</string>
++    <string name="headphone_plug_out_title">HeadPhone plug out</string>
++    <string name="headphone_plug_in_message">Switch to HeadPhone</string>
++    <string name="headphone_plug_out_message">Change to default channel</string>
++</resources>
+diff --git a/packages/SettingsProvider/res/values/defaults.xml b/packages/SettingsProvider/res/values/defaults.xml
+index ec01a55..41c3a92 100755
+--- a/packages/SettingsProvider/res/values/defaults.xml
++++ b/packages/SettingsProvider/res/values/defaults.xml
+@@ -215,6 +215,7 @@
+     <integer name="def_hdmi_full_screen">0</integer>
+ 	<integer name="def_hdmi_persent">25700</integer>
+ 
++    <integer name="def_mouse_advance">30</integer>
+     <!-- CAPTIVE_PORTAL_SERVER -->
+     <string name="def_captive_portal_server">connectivitycheck.android.com</string>
+ </resources>
+diff --git a/packages/SettingsProvider/src/com/android/providers/settings/DatabaseHelper.java b/packages/SettingsProvider/src/com/android/providers/settings/DatabaseHelper.java
+index f39f408..0b324c8 100755
+--- a/packages/SettingsProvider/src/com/android/providers/settings/DatabaseHelper.java
++++ b/packages/SettingsProvider/src/com/android/providers/settings/DatabaseHelper.java
+@@ -2367,7 +2367,9 @@ public class DatabaseHelper extends SQLiteOpenHelper {
+                     R.integer.def_gesture_screenrecord_enable);
+ 
+             loadBooleanSetting(stmt, Settings.System.KILL_BACKGROUND_SERVICES,
+-                    R.bool.def_kill_background_services);
++                    R.bool.def_kill_background_services);
++			loadIntegerSetting(stmt, Settings.System.MOUSE_ADVANCE,
++                    R.integer.def_mouse_advance);
+ 
+         } finally {
+             if (stmt != null) stmt.close();
+diff --git a/policy/src/com/android/internal/policy/impl/PhoneWindowManager.java b/policy/src/com/android/internal/policy/impl/PhoneWindowManager.java
+index 69e2585..fd59e20 100755
+--- a/policy/src/com/android/internal/policy/impl/PhoneWindowManager.java
++++ b/policy/src/com/android/internal/policy/impl/PhoneWindowManager.java
+@@ -124,6 +124,12 @@ import static android.view.WindowManagerPolicy.WindowManagerFuncs.LID_CLOSED;
+ import static android.view.WindowManagerPolicy.WindowManagerFuncs.CAMERA_LENS_COVER_ABSENT;
+ import static android.view.WindowManagerPolicy.WindowManagerFuncs.CAMERA_LENS_UNCOVERED;
+ import static android.view.WindowManagerPolicy.WindowManagerFuncs.CAMERA_LENS_COVERED;
++/* support the mouse mode */
++import android.app.Notification;
++import android.app.NotificationManager;
++import android.app.PendingIntent;
++import android.widget.Toast;
++//import com.softwinner.utils.Config;
+ 
+ /**
+  * WindowManagerPolicy implementation for the Android phone UI.  This
+@@ -584,6 +590,41 @@ public class PhoneWindowManager implements WindowManagerPolicy {
+     private static final int MSG_DISPATCH_SHOW_GLOBAL_ACTIONS = 10;
+     private static final int MSG_HIDE_BOOT_MESSAGE = 11;
+     private static final int MSG_LAUNCH_VOICE_ASSIST_WITH_WAKE_LOCK = 12;
++    /* add by Gary. start {{----------------------------------- */
++    /* 2011-12-7 */
++    /* support the mouse mode */
++    private int mLeftBtn  = -1;
++    private int mMidBtn   = -1;
++    private int mRightBtn = -1;
++    private int mLeft     = -1;
++    private int mRight    = -1;
++    private int mTop      = -1;
++    private int mBottom   = -1;
++    private static final int NF_ID_ENTER_KEY_MOUSE_MODE = 1;
++	boolean	mKeyEnterMouseMode = false;
++	NotificationManager mNotifationManager = null;
++	Notification mNotificationEnterKeyMouseMode = null;
++	Toast        mMouseToast = null;
++    Runnable     mPromptEnterMouseMode = new Runnable(){
++        public void run() {
++        	if(mMouseToast == null){
++			    mMouseToast = Toast.makeText(mContext, com.android.internal.R.string.enter_key_mouse_mode, Toast.LENGTH_SHORT);
++			    if(mMouseToast == null){
++			        Log.w(TAG, "Fail in creating toast.");
++			    }else {
++			        mMouseToast.setGravity(Gravity.CENTER, 0, 0);
++			    }
++        	}
++            mMouseToast.setText(com.android.internal.R.string.enter_key_mouse_mode);
++            mMouseToast.show();
++        }
++    };
++    Runnable     mPromptExitMouseMode = new Runnable(){
++             public void run() {
++                 mMouseToast.setText(com.android.internal.R.string.exit_key_mouse_mode);
++                 mMouseToast.show();
++             }
++    };
+     private static final int MSG_POWER_DELAYED_PRESS = 13;
+     private static final int MSG_POWER_LONG_PRESS = 14;
+ 
+@@ -1362,6 +1403,17 @@ public class PhoneWindowManager implements WindowManagerPolicy {
+         mSafeModeEnabledVibePattern = getLongIntArray(mContext.getResources(),
+                 com.android.internal.R.array.config_safeModeEnabledVibePattern);
+ 
++        /* add by Gary. start {{----------------------------------- */
++        /* 2011-12-7 */
++        /* support the mouse mode */
++        mLeftBtn  = SystemProperties.getInt("ro.softmouse.leftbtn.code", -1);
++        mMidBtn   = SystemProperties.getInt("ro.softmouse.midbtn.code", -1);
++        mRightBtn = SystemProperties.getInt("ro.softmouse.rightbtn.code", -1);
++        mLeft     = SystemProperties.getInt("ro.softmouse.left.code", -1);
++        mRight    = SystemProperties.getInt("ro.softmouse.right.code", -1);
++        mTop      = SystemProperties.getInt("ro.softmouse.top.code", -1);
++        mBottom   = SystemProperties.getInt("ro.softmouse.bottom.code", -1);
++        Log.d(TAG, "mLeftBtn = " + mLeftBtn + ", mBottom = " + mBottom);
+         mScreenshotChordEnabled = mContext.getResources().getBoolean(
+                 com.android.internal.R.bool.config_enableScreenshotChord);
+ 
+@@ -2636,6 +2688,76 @@ public class PhoneWindowManager implements WindowManagerPolicy {
+                 mHandler.post(mScreenshotRunnable);
+             }
+             return -1;
++        /* add by Gary. end   -----------------------------------}} */
++        /* 2011-12-7 */
++        /* support the mouse mode */
++    } else if (keyCode == KeyEvent.KEYCODE_MOUSE) {
++            Log.v(TAG, "it's KEYCODE_MOUSE key and down = " + down);
++            if(!down){
++			    if(mNotifationManager == null){
++                    mNotifationManager = (NotificationManager)mContext.getSystemService(Context.NOTIFICATION_SERVICE);     
++    			    if(mNotifationManager == null){
++    			        Log.w(TAG, "Fail in get NotificationManager");
++    			        return -1;
++    			    }
++    			}
++    			if(mNotificationEnterKeyMouseMode == null){
++    			    mNotificationEnterKeyMouseMode = new Notification(com.android.internal.R.drawable.key_mouse, 
++    			                                       mContext.getResources().getText(com.android.internal.R.string.enter_key_mouse_mode), 
++    			                                       System.currentTimeMillis());
++    			    Intent intent = new Intent();
++    			    PendingIntent contentIntent = PendingIntent.getActivity(mContext, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
++    			    mNotificationEnterKeyMouseMode.setLatestEventInfo(mContext, mContext.getResources().getText(com.android.internal.R.string.title_key_mouse_mode),
++    				                          mContext.getResources().getText(com.android.internal.R.string.detail_key_mouse_mode), contentIntent);
++				}
++				if(mKeyEnterMouseMode)
++				{
++				    /* cancel notification */
++                    mNotifationManager.cancel(NF_ID_ENTER_KEY_MOUSE_MODE);
++                    /* show toast */
++                    mHandler.removeCallbacks(mPromptExitMouseMode);
++                    mHandler.post(mPromptExitMouseMode);
++                    
++					try
++					{
++						mWindowManager.keyExitMouseMode();
++
++						mKeyEnterMouseMode = false;
++					}
++					catch(RemoteException e)
++					{
++						Log.e(TAG,"key Exit Mouse Mode Failed!\n");
++					}
++				}
++				else
++				{
++    			    /* send notification */
++				    mNotifationManager.notify(NF_ID_ENTER_KEY_MOUSE_MODE, mNotificationEnterKeyMouseMode); 
++                    /* show toast */
++                    mHandler.removeCallbacks(mPromptEnterMouseMode);
++                    mHandler.post(mPromptEnterMouseMode);
++				    
++					try
++					{
++						mWindowManager.keyEnterMouseMode();
++
++						mWindowManager.keySetMouseDistance(Settings.System.getInt(mContext.getContentResolver(), Settings.System.MOUSE_ADVANCE, 30));
++
++						mWindowManager.keySetMouseBtnCode(mLeftBtn, mMidBtn, mRightBtn);
++
++						mWindowManager.keySetMouseMoveCode(mLeft, mRight, mTop, mBottom);
++
++						mKeyEnterMouseMode = true;
++					}
++					catch(RemoteException e)
++					{
++						Log.e(TAG,"key enterMouse Mode Failed!\n");
++					}
++				}
++            }
++            return -1;
++        
++        /* add by Gary. end   -----------------------------------}} */
+         } else if (keyCode == KeyEvent.KEYCODE_BRIGHTNESS_UP
+                 || keyCode == KeyEvent.KEYCODE_BRIGHTNESS_DOWN) {
+             if (down) {
+diff --git a/services/core/java/com/android/server/input/InputManagerService.java b/services/core/java/com/android/server/input/InputManagerService.java
+index 15dcd44..ad21141 100644
+--- a/services/core/java/com/android/server/input/InputManagerService.java
++++ b/services/core/java/com/android/server/input/InputManagerService.java
+@@ -193,6 +193,11 @@ public class InputManagerService extends IInputManager.Stub
+     private static native void nativeCancelVibrate(long ptr, int deviceId, int token);
+     private static native void nativeReloadKeyboardLayouts(long ptr);
+     private static native void nativeReloadDeviceAliases(long ptr);
++	private static native void nativeKeyEnterMouseMode(long ptr);
++	private static native void nativeKeyExitMouseMode(long ptr);
++	private static native void nativeKeySetMouseDistance(long ptr,int distance);
++	private static native void nativeKeySetMouseMoveCode(long ptr,int left,int right,int top,int bottom);
++	private static native void nativeKeySetMouseBtnCode(long ptr,int leftbtn,int midbtn,int rightbtn);
+     private static native String nativeDump(long ptr);
+     private static native void nativeMonitor(long ptr);
+ 
+@@ -1259,6 +1264,32 @@ public class InputManagerService extends IInputManager.Stub
+         nativeSetShowTouches(mPtr, setting != 0);
+     }
+ 
++	public void KeyEnterMouseMode()
++	{
++	    Log.d(TAG,"KeyEnterMouseMode");
++		nativeKeyEnterMouseMode(mPtr);
++	}
++
++	public void KeyExitMouseMode()
++	{
++	    Log.d(TAG,"KeyExitMouseMode");
++		nativeKeyExitMouseMode(mPtr);
++	}
++
++	public void KeySetMouseDistance(int distance)
++	{
++		nativeKeySetMouseDistance(mPtr,distance);
++	}
++
++	public void KeySetMouseMoveCode(int left,int right,int top,int bottom)
++	{
++		nativeKeySetMouseMoveCode(mPtr,left,right,top,bottom);
++	}
++
++	public void KeySetMouseBtnCode(int leftbtn,int midbtn,int rightbtn)
++	{
++		nativeKeySetMouseBtnCode(mPtr,leftbtn,midbtn,rightbtn);
++	}		 
+     private void registerShowTouchesSettingObserver() {
+         mContext.getContentResolver().registerContentObserver(
+                 Settings.System.getUriFor(Settings.System.SHOW_TOUCHES), true,
+diff --git a/services/core/java/com/android/server/wm/WindowManagerService.java b/services/core/java/com/android/server/wm/WindowManagerService.java
+index a374bd6..4e6f3e2 100755
+--- a/services/core/java/com/android/server/wm/WindowManagerService.java
++++ b/services/core/java/com/android/server/wm/WindowManagerService.java
+@@ -10921,6 +10921,32 @@ public class WindowManagerService extends IWindowManager.Stub
+     public boolean isSafeModeEnabled() {
+         return mSafeMode;
+     }
++	public void keyEnterMouseMode() 
++    {
++        Log.d(TAG,"keyEnterMouseMode");
++        mInputManager.KeyEnterMouseMode();
++    }
++
++	public void keyExitMouseMode() 
++    {
++        Log.d(TAG,"keyExitMouseMode");
++        mInputManager.KeyExitMouseMode();
++    }
++
++	public void keySetMouseMoveCode(int left,int right,int top,int bottom) 
++    {
++        mInputManager.KeySetMouseMoveCode(left,right,top,bottom);
++    }
++
++	public void keySetMouseBtnCode(int leftbtn,int midbtn,int rightbtn)
++	{
++		mInputManager.KeySetMouseBtnCode(leftbtn,midbtn,rightbtn);
++	}
++
++	public void keySetMouseDistance(int distance)
++	{
++		mInputManager.KeySetMouseDistance(distance);
++	}
+ 
+     @Override
+     public boolean clearWindowContentFrameStats(IBinder token) {
+diff --git a/services/core/jni/com_android_server_input_InputManagerService.cpp b/services/core/jni/com_android_server_input_InputManagerService.cpp
+index 9b58e54..e0d4a75 100755
+--- a/services/core/jni/com_android_server_input_InputManagerService.cpp
++++ b/services/core/jni/com_android_server_input_InputManagerService.cpp
+@@ -1284,6 +1284,35 @@ static void nativeSetShowTouches(JNIEnv* env,
+     im->setShowTouches(enabled);
+ }
+ 
++static void android_server_InputManager_nativeKeyEnterMouseMode(JNIEnv* env, jclass clazz, jlong ptr) 
++{
++    NativeInputManager* im = reinterpret_cast<NativeInputManager*>(ptr);
++    im->getInputManager()->getReader()->keyEnterMouseMode();
++}
++
++static void android_server_InputManager_nativeKeyExitMouseMode(JNIEnv* env, jclass clazz, jlong ptr) 
++{
++	NativeInputManager* im = reinterpret_cast<NativeInputManager*>(ptr);
++    im->getInputManager()->getReader()->keyExitMouseMode();
++}
++
++static void android_server_InputManager_nativeKeySetMouseBtnCode(JNIEnv* env, jclass clazz,jlong ptr,jint leftbtn,jint midbtn,jint rightbtn) 
++{
++	NativeInputManager* im = reinterpret_cast<NativeInputManager*>(ptr);
++    im->getInputManager()->getReader()->keySetMouseBtnCode((int)leftbtn,(int)midbtn,(int)rightbtn);
++}
++
++static void android_server_InputManager_nativeKeySetMouseDistance(JNIEnv* env, jclass clazz,jlong ptr,jint distance) 
++{
++	NativeInputManager* im = reinterpret_cast<NativeInputManager*>(ptr);
++    im->getInputManager()->getReader()->keySetMouseDistance((int)distance);
++}
++
++static void android_server_InputManager_nativeKeySetMouseMoveCode(JNIEnv* env, jclass clazz,jlong ptr,jint left,jint right,jint top,jint bottom) 
++{
++	NativeInputManager* im = reinterpret_cast<NativeInputManager*>(ptr);
++    im->getInputManager()->getReader()->keySetMouseMoveCode((int)left,(int)right,(int)top,(int)bottom);
++}
+ static void nativeSetInteractive(JNIEnv* env,
+         jclass clazz, jlong ptr, jboolean interactive) {
+     NativeInputManager* im = reinterpret_cast<NativeInputManager*>(ptr);
+@@ -1417,6 +1446,16 @@ static JNINativeMethod gInputManagerMethods[] = {
+             (void*) nativeDump },
+     { "nativeMonitor", "(J)V",
+             (void*) nativeMonitor },
++    { "nativeKeyEnterMouseMode", "(J)V",
++            (void*) android_server_InputManager_nativeKeyEnterMouseMode},
++    { "nativeKeyExitMouseMode", "(J)V",
++            (void*) android_server_InputManager_nativeKeyExitMouseMode},
++    { "nativeKeySetMouseDistance", "(JI)V",
++            (void*) android_server_InputManager_nativeKeySetMouseDistance},
++    { "nativeKeySetMouseMoveCode", "(JIIII)V",
++            (void*) android_server_InputManager_nativeKeySetMouseMoveCode},
++    { "nativeKeySetMouseBtnCode", "(JIII)V",
++            (void*) android_server_InputManager_nativeKeySetMouseBtnCode},
+ };
+ 
+ #define FIND_CLASS(var, className) \

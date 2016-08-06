@@ -1,0 +1,20 @@
+on property:sys.cpufreq.enabled=1
+       # interactive paras
+       write /sys/devices/system/cpu/cpu0/cpufreq/interactive/timer_rate                               50000
+       write /sys/devices/system/cpu/cpu0/cpufreq/interactive/timer_slack                              200000
+       write /sys/devices/system/cpu/cpu0/cpufreq/interactive/go_hispeed_load                  70
+       write /sys/devices/system/cpu/cpu0/cpufreq/interactive/hispeed_freq                             1608000
+       write /sys/devices/system/cpu/cpu0/cpufreq/interactive/above_hispeed_delay              50000
+       write /sys/devices/system/cpu/cpu0/cpufreq/interactive/input_event_freq                 1608000
+       write /sys/devices/system/cpu/cpu0/cpufreq/interactive/target_loads                             90
+       write /sys/devices/system/cpu/cpu0/cpufreq/interactive/min_sample_time                  200000
+
+       # autohotplug paras
+       write /sys/kernel/autohotplug/timer_task_us                             20000
+       write /sys/kernel/autohotplug/try_cpudn_level                   20
+       write /sys/kernel/autohotplug/save_all_up                               50
+       write /sys/kernel/autohotplug/try_cpuup_level                   60
+       write /sys/kernel/autohotplug/try_boost_level                   95
+       write /sys/kernel/autohotplug/stable_tryup_us                   20000
+       write /sys/kernel/autohotplug/stable_tdown_us                   1000000
+

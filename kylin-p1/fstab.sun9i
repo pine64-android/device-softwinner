@@ -1,0 +1,16 @@
+# Android fstab file.
+#<src>                                         <mnt_point>  <type>  <mnt_flags and options>  <fs_mgr_flags>
+# The filesystem that contains the filesystem checker binary (typically /system) cannot
+# specify MF_CHECK, and must come before any filesystems that do specify MF_CHECK
+
+/dev/block/by-name/system               /system             ext4    ro                                                                      wait
+/dev/block/by-name/cache                /cache              ext4    noatime,nosuid,nodev,nomblk_io_submit,barrier=1                         wait,check
+/dev/block/by-name/UDISK                /data               ext4    noatime,nosuid,nodev,nomblk_io_submit,barrier=1,noauto_da_alloc         wait,check,encryptable=/dev/block/by-name/metadata
+/devices/platform/sunxi-mmc.0/mmc_host  auto                vfat    defaults                                                                wait,check,voldmanaged=extsd:auto
+/devices/platform/sunxi-mmc.1/mmc_host  auto                vfat    defaults                                                                wait,check,voldmanaged=extsd:auto
+/devices/platform/sunxi-ehci.1          auto                vfat    defaults                                                                wait,check,voldmanaged=usbhost:auto
+/devices/platform/sunxi-ehci.3          auto                vfat    defaults                                                                wait,check,voldmanaged=usbhost:auto
+/devices/platform/sunxi_otg       	auto                vfat    defaults                                                                wait,check,voldmanaged=usbhost:auto
+/devices/platform/sunxi-ohci.1          auto                vfat    defaults                                                                wait,check,voldmanaged=usbhost:auto
+/devices/platform/sunxi-ohci.3          auto                vfat    defaults                                                                wait,check,voldmanaged=usbhost:auto
+/dev/block/zram0                        none                swap    defaults                                                                zramsize=134217728

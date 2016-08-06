@@ -1,0 +1,13 @@
+diff --git a/common.mk b/common.mk
+index 62f9c68..6a29009 100755
+--- a/common.mk
++++ b/common.mk
+@@ -16,7 +16,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
+ endif
+ 
+ # preinstall apk
+-PRODUCT_PACKAGES += \
++# PRODUCT_PACKAGES += \
+     DragonFire \
+     DragonPhone \
+     DragonAging

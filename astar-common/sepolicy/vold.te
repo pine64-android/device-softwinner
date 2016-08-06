@@ -1,0 +1,4 @@
+allow vold log_device:dir write;
+allow vold kernel:system module_request;
+allow vold self:capability { setgid setuid };
+allow vold fuse_device:chr_file { getattr read write open };

@@ -1,0 +1,138 @@
+on init
+    # for sensors cache.
+    mkdir /sensors_cache 0700 root system
+    mount tmpfs tmpfs /sensors_cache mode=0755,gid=1000
+    mkdir /logger 0770 system system
+    mkdir /bootloader 0000 system system
+
+on post-fs
+    chown system system /logger
+    chmod 0770 /logger
+    restorecon_recursive /logger
+    mkdir /logger/lost+found 0770 root root
+
+on post-fs-data
+    start bootclone
+    start precopy
+
+on boot
+    # last shutdown alarm will cause the suspend alarm invalid, so clean it
+    write /sys/class/rtc/rtc0/wakealarm 0
+
+on nonencrypted
+    setprop zygote.mount_fs_data_done 1
+
+on property:vold.decrypt=trigger_restart_min_framework
+    setprop zygote.mount_fs_data_done 1
+
+on property:vold.decrypt=trigger_restart_framework
+    setprop zygote.mount_fs_data_done 1
+
+on early-fs
+    # set RLIMIT_NICE to allow priorities from 19 to -20
+    setrlimit 13 40 40
+    start zygote
+    start zygote_secondary
+
+on property:sys.bootstrap_service_started=1
+    start preinstall
+
+service bootclone /sbin/busybox sh /system/bin/bootclone.sh
+    user root
+    group root
+    oneshot
+    disabled
+
+service precopy /sbin/busybox sh /system/bin/precopy.sh
+    user root
+    group root
+    disabled
+    oneshot
+
+service preinstall /sbin/busybox sh /system/bin/preinstall.sh
+    user root
+    group root
+    disabled
+    oneshot
+
+on fs
+
+service charger /charger
+    class charger
+
+service logger_kernel /system/bin/logger.sh kernel
+    user root
+    disabled
+    oneshot
+
+service logger_android /system/bin/logger.sh android
+    user root
+    disabled
+    oneshot
+
+service logger_service /system/bin/log_service
+    class main
+    user root
+    disabled
+    oneshot
+
+service logger_private /system/bin/log_service private
+    class main
+    user root
+    oneshot
+
+#shutdownanim
+service shutdownanim /system/bin/bootanimation /system/media/shutdownanimation.zip
+    class core
+    user graphics
+    group graphics audio media
+    disabled
+    oneshot
+
+# dhcp service
+service dhcpcd_wlan0 /system/bin/dhcpcd -aABDKL
+    class main
+    disabled
+    oneshot
+
+service dhcpcd_eth0 /system/bin/dhcpcd -aABDKL
+    class main
+    disabled
+    oneshot
+
+service dhcpcd_p2p /system/bin/dhcpcd -aABKL
+    class main
+    disabled
+    oneshot
+
+service dhcpcd_bt-pan /system/bin/dhcpcd -ABKL
+    class main
+    disabled
+    oneshot
+
+service iprenew_wlan0 /system/bin/dhcpcd -n
+    class main
+    disabled
+    oneshot
+
+service iprenew_eth0 /system/bin/dhcpcd -n
+    class main
+    disabled
+    oneshot
+
+service iprenew_p2p /system/bin/dhcpcd -n
+    class main
+    disabled
+    oneshot
+
+service iprenew_bt-pan /system/bin/dhcpcd -n
+    class main
+    disabled
+    oneshot
+
+service sayeye /system/bin/sayeye
+    class core
+    user system
+    group system
+    socket sayeye stream 0660 root system
+    ioprio be 2

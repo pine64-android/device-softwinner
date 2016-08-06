@@ -1,0 +1,5 @@
+allow untrusted_app cedar_device:chr_file { read write open ioctl };
+allow untrusted_app platform_app:sem { create destroy unix_read unix_write associate read write };
+allow untrusted_app mediaserver:sem { read write unix_read unix_write associate };
+allow untrusted_app self:sem { create destroy unix_read unix_write read write associate };
+allow untrusted_app system_app_data_file:dir {getattr search};

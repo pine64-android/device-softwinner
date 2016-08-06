@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <add-resource type="bool" name="hasVolumeButton" />
+    <bool name="hasVolumeButton" translatable="false">true</bool>
+</resources>
+
