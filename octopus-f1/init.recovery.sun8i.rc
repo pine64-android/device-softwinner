@@ -1,0 +1,13 @@
+on init
+    insmod /nand.ko
+    insmod /sw-device.ko debug_mask=0xff ctp_mask=1
+    insmod /sunxi_tr.ko
+    insmod /disp.ko
+
+service console /system/bin/sh
+    class core
+    console
+    disabled
+    user shell
+    group shell log
+    seclabel u:r:shell:s0

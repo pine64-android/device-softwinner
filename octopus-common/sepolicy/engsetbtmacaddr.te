@@ -1,0 +1,18 @@
+type engsetbtmacaddr, domain;
+type engsetbtmacaddr_exec, exec_type, file_type;
+
+init_daemon_domain(engsetbtmacaddr)
+allow engsetbtmacaddr  vfat:dir create_dir_perms;
+allow engsetbtmacaddr  vfat:file create_file_perms;
+#allow engsetbtmacaddr  system_data_file:file create_file_perms; 
+allow engsetbtmacaddr  system_data_file:dir create_dir_perms;
+allow engsetbtmacaddr  bluetooth_data_file:file create_file_perms; 
+allow engsetbtmacaddr  bluetooth_data_file:dir create_dir_perms;
+allow engsetbtmacaddr  sysfs:file rw_file_perms;
+allow engsetbtmacaddr  shell_exec:file rx_file_perms;
+
+allow engsetbtmacaddr self:capability { dac_override sys_admin chown fowner fsetid };
+
+allow engsetbtmacaddr system_file:file x_file_perms;
+allow engsetbtmacaddr tmpfs:dir create_dir_perms;
+allow engsetbtmacaddr engsetbtmacaddr_tmpfs:file { write create open };

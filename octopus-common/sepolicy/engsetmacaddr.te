@@ -1,0 +1,18 @@
+type engsetmacaddr, domain;
+type engsetmacaddr_exec, exec_type, file_type;
+
+init_daemon_domain(engsetmacaddr)
+allow engsetmacaddr  vfat:dir create_dir_perms;
+allow engsetmacaddr  vfat:file create_file_perms;
+#allow engsetmacaddr  system_data_file:file create_file_perms;
+allow engsetmacaddr  system_data_file:dir create_dir_perms;
+allow engsetmacaddr  sysfs:file rw_file_perms;
+allow engsetmacaddr  shell_exec:file rx_file_perms;
+
+allow engsetmacaddr self:capability { dac_override sys_admin chown fowner fsetid };
+
+allow engsetmacaddr system_file:file x_file_perms;
+allow engsetmacaddr tmpfs:dir create_dir_perms;
+allow engsetmacaddr engsetmacaddr_tmpfs:file {write create open};
+allow engsetmacaddr  wifi_data_file:file create_file_perms; 
+allow engsetmacaddr  wifi_data_file:dir create_dir_perms;

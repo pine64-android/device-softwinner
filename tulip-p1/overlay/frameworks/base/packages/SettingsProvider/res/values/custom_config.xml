@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Default gesture screenshot enable -->
+    <integer name="def_gesture_screenshot_enable" translatable="false">1</integer>
+    <!-- Default gesture screenrecord enable -->
+    <integer name="def_gesture_screenrecord_enable" translatable="false">1</integer>
+
+    <!-- Default time 12hours or 24hours format -->
+    <string name="def_time_12_24" translatable="false">12</string>
+
+    <!-- Default low power mod trigger level -->
+    <integer name="def_low_power_mode_trigger_level" translatable="false">15</integer>
+
+    <!-- Default enable system print services(installed from system image) -->
+    <integer name="def_enable_system_print_services" translatable="false">0</integer>
+
+    <!-- Default kill background services -->
+    <bool name="def_kill_background_services" translatable="false">true</bool>
+</resources>

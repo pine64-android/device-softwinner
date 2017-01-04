@@ -1,0 +1,7 @@
+allow vold log_device:dir write;
+allow vold logger_file:dir rw_dir_perms;
+allow vold kernel:system module_request;
+allow vold self:capability { setgid setuid };
+allow vold fuse_device:chr_file { getattr read write open };
+allow vold swap_block_device:blk_file getattr;
+allow vold storage_stub_file:dir { read open };

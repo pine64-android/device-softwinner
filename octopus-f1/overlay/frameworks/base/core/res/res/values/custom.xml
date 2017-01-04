@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- for screen of delay -->
+    <!-- because some screen may sleep slowly and cause display error -->
+    <!-- <integer name="config_screenOffNotifyDelayTime">500</integer> --> 
+</resources>

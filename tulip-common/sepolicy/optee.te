@@ -1,0 +1,8 @@
+type optee, domain;
+type optee_exec, exec_type, file_type;
+init_daemon_domain(optee)
+
+allow shell optee_exec:file getattr;
+allow optee self:capability dac_override;
+allow optee tee_device:chr_file { read write open ioctl };
+allow optee system_data_file:dir { write add_name create };

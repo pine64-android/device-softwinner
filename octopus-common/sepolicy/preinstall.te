@@ -1,0 +1,9 @@
+type preinstall, domain;
+type preinstall_exec, exec_type, file_type;
+init_daemon_domain(preinstall)
+
+allow preinstall shell_exec:file read;
+allow preinstall self:capability { dac_override fowner };
+allow preinstall vfat:dir { search mounton write add_name };
+allow preinstall vfat:file { create read write open getattr };
+

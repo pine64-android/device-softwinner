@@ -1,0 +1,11 @@
+allow untrusted_app zygote:unix_dgram_socket getattr;
+allow untrusted_app debugfs:file getattr;
+allow untrusted_app storage_stub_file:dir getattr;
+allow untrusted_app shell_data_file:dir { write add_name remove_name };
+allow untrusted_app system_app_data_file:dir { search getattr };
+allow untrusted_app storage_file:file { read open };
+allow untrusted_app self:udp_socket ioctl;
+allow untrusted_app logger_file:dir getattr;
+allow untrusted_app init:dir { getattr search };
+allow untrusted_app kernel:dir { getattr search };
+allow untrusted_app healthd_service:service_manager find;

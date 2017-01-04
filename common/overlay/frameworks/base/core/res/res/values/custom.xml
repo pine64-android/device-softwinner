@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- packages who's name in the array will not be killed by -->
+	<!--<string-array name="background_services_whitelist">
+        <item>android</item>
+        <item>com.android</item>
+        <item>com.google</item>
+        <item>com.softwinner</item>
+        <item>google</item>
+        <item>com.sohu.inputmethod</item>
+        <item>com.baidu.input</item>
+        <item>com.iflytek.inputmethod</item>
+        <item>com.tencent.qqpinyin</item>
+        <item>com.komoxo.octopusime</item>
+        <item>com.ting.mp3.android</item>
+        <item>com.kugou.player</item>
+        <item>cn.kuwo.player</item>
+        <item>com.ting.mp3</item>
+        <item>com.netease.cloudmusic</item>
+        <item>fm.xiami.bmamba</item>
+        <item>com.tencent.qqmusic</item>
+        <item>com.iflytek.ringdiy</item>
+        <item>com.duomi.android</item>
+        <item>com.tencent.mobileqq</item>
+        <item>com.tencent.mm</item>
+        <item>fm.qingting.qtradio</item>
+        <item>intelligent.voice</item>
+        <item>com.douban.radio</item>
+        <item>InternetRadio</item>
+        <item>com.itings.myradio</item>
+        <item>com.ximalaya.ting.android</item>
+	</string-array>-->
+</resources>

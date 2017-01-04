@@ -1,0 +1,14 @@
+allow kernel self:capability { mknod fowner dac_override dac_read_search };
+allow kernel device:blk_file create_file_perms;
+allow kernel device:chr_file {create setattr getattr unlink};
+allow kernel device:dir create_dir_perms;
+allow kernel fuse:dir { search write add_name };
+allow kernel fuse:file { create write open };
+allow kernel cache_file:dir { search write add_name };
+allow kernel cache_file:file { create write open };
+allow kernel block_device:dir { search };
+allow kernel root_block_device:blk_file { read write open };
+allow kernel untrusted_app_tmpfs:file { write };
+allow kernel wifi_data_file:dir { read search open };
+allow kernel wifi_data_file:file { read open };
+allow kernel kernel:netlink_route_socket create;

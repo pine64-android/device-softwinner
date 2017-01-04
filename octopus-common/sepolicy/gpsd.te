@@ -1,0 +1,11 @@
+# gpsd need wakelock
+wakelock_use(gpsd)
+
+# gpsd data file
+file_type_auto_trans(gpsd, system_data_file, gps_data_file);
+allow gpsd system_data_file:fifo_file rw_file_perms ;
+allow gpsd servicemanager:binder call ;
+allow gpsd sensorservice_service:service_manager find ;
+allow gpsd system_server:binder call ;
+allow gpsd system_server:unix_stream_socket {read write } ;
+allow gpsd system_data_file:dir {remove_name} ;

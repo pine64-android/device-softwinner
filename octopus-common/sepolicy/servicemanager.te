@@ -1,0 +1,5 @@
+# servicemanager - the Binder context manager
+
+allow servicemanager gpsd:dir rw_dir_perms;
+allow servicemanager gpsd:file rw_file_perms;
+allow servicemanager gpsd:process getattr;

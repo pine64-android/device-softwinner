@@ -1,0 +1,2 @@
+allow surfaceflinger disp_device:chr_file rw_file_perms;
+allow surfaceflinger sysfs:file write;

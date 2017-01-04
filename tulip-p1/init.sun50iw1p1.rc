@@ -1,0 +1,176 @@
+import init.common.rc
+import init.sun50iw1p1.usb.rc
+import init.${ro.zygote}.rc
+
+on early-init
+    mount debugfs debugfs /sys/kernel/debug/ mode=755
+
+on init
+    # Set permissions for persist partition
+    mkdir /persist 0771 system system
+    mkdir /firmware 0771 system system
+
+    # Support legacy paths
+    symlink /sdcard /mnt/sdcard
+    symlink /sdcard /storage/sdcard0
+
+    mkdir /oem 0550 system system
+on early-fs
+    insmod nand.ko
+    mount_all /fstab.sun50iw1p1
+    swapon_all /fstab.sun50iw1p1
+    restorecon_recursive /persist
+
+    wait /dev/block/by-name/media_data
+    mount vfat /dev/block/by-name/media_data /oem ro nosuid nodev utf8,context=u:object_r:oemfs:s0
+
+on fs
+    insmod /system/vendor/modules/disp.ko
+	insmod /system/vendor/modules/sunxi_tr.ko
+    insmod /system/vendor/modules/hdmi.ko
+
+	#secure storage
+    insmod /system/vendor/modules/te_sec_storage.ko
+
+	# gpu
+    insmod /system/vendor/modules/mali.ko
+
+	# sw-keystore
+    mkdir /cache/HWML 0770 root system
+    insmod /system/vendor/modules/sunxi_schw.ko
+    chmod 0660 /dev/scdev
+    chown keystore keystore /dev/scdev
+
+	# sw-keyboard
+    insmod /system/vendor/modules/sunxi-keyboard.ko
+    init_dev_detect
+
+	# csi module
+    insmod /system/vendor/modules/videobuf2-core.ko
+    insmod /system/vendor/modules/videobuf2-memops.ko
+    insmod /system/vendor/modules/videobuf2-dma-contig.ko
+    insmod /system/vendor/modules/vfe_io.ko
+    insmod /system/vendor/modules/gc0328c.ko
+    insmod /system/vendor/modules/gc2145.ko
+    insmod /system/vendor/modules/vfe_v4l2.ko
+
+	# network
+    insmod /system/vendor/modules/usbnet.ko
+    insmod /system/vendor/modules/asix.ko
+    insmod /system/vendor/modules/qf9700.ko
+    insmod /system/vendor/modules/mcs7830.ko
+    insmod /system/vendor/modules/rtl8150.ko
+    insmod /system/vendor/modules/cdc_ether.ko
+    insmod /system/vendor/modules/smsc75xx.ko
+    insmod /system/vendor/modules/smsc95xx.ko
+
+	#bluesleep
+    insmod /system/vendor/modules/rtl_btlpm.ko
+
+	# bluetooth
+    # UART device
+    chmod 0660 /dev/ttyS1
+    chown bluetooth net_bt_stack /dev/ttyS1
+
+	# power up/down interface
+    chmod 0660 /sys/class/rfkill/rfkill0/state
+    chmod 0660 /sys/class/rfkill/rfkill0/type
+    chown bluetooth net_bt_stack /sys/class/rfkill/rfkill0/state
+    chown bluetooth net_bt_stack /sys/class/rfkill/rfkill0/type
+
+
+    # bluetooth LPM
+    chmod 0220 /proc/bluetooth/sleep/lpm
+    chmod 0220 /proc/bluetooth/sleep/btwrite
+    chown bluetooth net_bt_stack /proc/bluetooth/sleep/lpm
+    chown bluetooth net_bt_stack /proc/bluetooth/sleep/btwrite
+    write /proc/bluetooth/sleep/lpm 1
+
+	# to observe dnsmasq.leases file for dhcp information of soft ap.
+    chown dhcp system /data/misc/dhcp
+
+on property:sys.boot_completed=1
+    chown system system /sys/devices/soc.0/1c2ac00.twi/i2c-0/0-0040/runtime_suspend
+    chmod 0660 /sys/devices/soc.0/1c2ac00.twi/i2c-0/0-0040/runtime_suspend
+    #start engsetmacaddr
+    #start engsetbtmacaddr
+
+on post-fs-data
+    mkdir /data/media 0770 media_rw media_rw
+    # bluetooth MAC address programming
+    chown bluetooth net_bt_stack ro.bt.bdaddr_path
+    chown bluetooth net_bt_stack /system/etc/bluetooth
+    chown bluetooth net_bt_stack /data/misc/bluetooth
+    setprop ro.bt.bdaddr_path "/data/misc/bluetooth/bdaddr"
+    # Set indication (checked by vold) that we have finished this action
+    setprop vold.post_fs_data_done 1
+    # to force to start sdcard
+    #class_start late_start
+
+    # This module write data to /data should insmod in post-fs-data
+    # due to encryption
+
+on boot
+    chown system system /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+    chmod 0660 /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+
+    chown system system /sys/kernel/debug/tracing
+    chmod 0755 /sys/kernel/debug/tracing
+    
+    chown system system /sys/kernel/autohotplug/enable
+    chmod 0660 /sys/kernel/autohotplug/enable
+
+    chown system system /sys/devices/system/cpu/cpu0/cpufreq/boot_lock
+    chmod 0660 /sys/devices/system/cpu/cpu0/cpufreq/boot_lock
+
+    chown system system /sys/devices/soc.0/cpu_budget_cool.17/roomage
+    chmod 0660 /sys/devices/soc.0/cpu_budget_cool.17/roomage
+
+    chown system system /sys/class/devfreq/dramfreq/adaptive/pause
+    chmod 0660 /sys/class/devfreq/dramfreq/adaptive/pause
+
+on charger
+    insmod nand.ko
+    mount_all /fstab.sun50iw1p1
+    insmod /system/vendor/modules/disp.ko
+
+    class_start charger
+    write /sys/module/printk/parameters/console_suspend N
+    write /proc/sys/kernel/printk 0
+
+ifeq ($(BOARD_WIDEVINE_OEMCRYPTO_LEVEL), 1)
+service optee /system/bin/tee_supplicant
+    class core
+    user root
+    group root
+endif
+
+
+# 1. realtek & eagle wifi service
+# 1.1 realtek & eagle wifi sta service
+service wpa_supplicant /system/bin/wpa_supplicant \
+    -iwlan0 -Dnl80211 -c/data/misc/wifi/wpa_supplicant.conf \
+    -I/system/etc/wifi/wpa_supplicant_overlay.conf \
+    -O/data/misc/wifi/sockets \
+    -e/data/misc/wifi/entropy.bin -g@android:wpa_wlan0
+    #   we will start as root and wpa_supplicant will switch to user wifi
+    #   after setting up the capabilities required for WEXT
+    #   user wifi
+    #   group wifi inet keystore
+    class main
+    socket wpa_wlan0 dgram 660 wifi wifi
+    disabled
+    oneshot
+
+# 1.2 realtek & eagle wifi sta p2p concurrent service
+service p2p_supplicant /system/bin/wpa_supplicant \
+    -ip2p0 -Dnl80211 -c/data/misc/wifi/p2p_supplicant.conf \
+    -e/data/misc/wifi/entropy.bin -N \
+    -iwlan0 -Dnl80211 -c/data/misc/wifi/wpa_supplicant.conf \
+    -I/system/etc/wifi/wpa_supplicant_overlay.conf \
+    -O/data/misc/wifi/sockets \
+    -g@android:wpa_wlan0
+    class main
+    socket wpa_wlan0 dgram 660 wifi wifi
+    disabled
+    oneshot

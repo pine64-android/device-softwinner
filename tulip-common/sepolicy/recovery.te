@@ -1,0 +1,10 @@
+# Access OBBs (vfat images) mounted by vold (b/17633509)
+allow recovery vfat:dir create_dir_perms;
+allow recovery vfat:file create_file_perms;
+allow recovery rootfs:dir create_dir_perms;
+allow recovery media_rw_data_file:dir r_dir_perms;
+allow recovery media_rw_data_file:file r_file_perms;
+allow recovery self:capability sys_module;
+allow recovery block_device:dir { write add_name };
+allow recovery block_device:file { create write open };
+allow recovery proc_drop_caches:file { read getattr };

@@ -1,0 +1,2 @@
+/sys/devices/virtual/input/input*   delay       0660  root   input
+

@@ -1,0 +1,11 @@
+allow init shell_data_file:dir { write add_name };
+allow init shell_data_file:file create_file_perms;
+allow init self:capability sys_module;
+allow init tmpfs:lnk_file create_file_perms;
+allow init userdata_block_device:blk_file rw_file_perms;
+allow init cache_block_device:blk_file rw_file_perms;
+allow init log_block_device:blk_file rw_file_perms;
+allow init misc_block_device:blk_file rw_file_perms;
+allow init vfat:dir { search mounton write add_name setattr};
+allow init socket_device:sock_file { create setattr unlink};
+allow init proc_bluetooth_writable:file write;

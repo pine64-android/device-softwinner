@@ -1,0 +1,2718 @@
+get log from exdroid/develop
+abi/cpp
+commit 9c0f12560efed0f6ca0119e4f75176778cafff57
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:55:35 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+art
+commit 23ac7a1436e12da7a81dde246edeb7f98e17b5e9
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:55:36 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+bionic
+commit 331c37d4954501f87b28e2bf2d1b053a09de05ae
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:55:38 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+bootable/recovery
+commit 2f53536bc91000e5e149fd6232f3eed9a120e79c
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-03-09 16:10:54 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0 release
+build
+commit c91582f7398c34d0b26a2f3f2122fbe20e09acc0
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:55:39 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+cts
+commit 003e5a76e334ef90db9f8e34162017eff256b4fd
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:55:57 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+dalvik
+commit bc0cd54b6a8d8a71e8bde7be8b6413fb8e2b7709
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:55:59 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+developers/build
+commit c17b02e3f3c0d7823ed4db7f1d074e74456025ab
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:03 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+developers/demos
+commit c4bbd983f2eded8986f4324c8a18710ab8dda619
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:04 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+developers/docs
+commit c0b835ddd9acc27176dc9a0f7d1aa2faf5d51806
+Author: Baligh Uddin <baligh@google.com>
+Date:   2013-02-20 11:48:44 -0800
+
+    Initial empty repository
+developers/samples/android
+commit e36e5bee4e0449d62e65ad3454ff47f07509fed4
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:09 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+development
+commit 9c92b6c0b07c550ea2ece52f8d8c50d85594bb1e
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:18 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+device/asus/deb
+commit 2ac8b58f6120775ffce26c7ed998a63fa18bfc63
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:19 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+device/asus/flo
+commit dfce6618145f9209642e29af06285d97d64cbfe4
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:19 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+device/asus/fugu
+commit 963c1136a9b13c4147d46f86556548d65119cd6d
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:20 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+device/common
+commit e40d87b5d9040c6ee8729aa8352c90de83c92848
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:20 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+device/generic/arm64
+commit f677413f40991b8ce5f8046df8ab58518a15724b
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:20 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+device/generic/armv7-a-neon
+commit 523975366ef9174f848dcb32788e7818fef9d7e3
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:20 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+device/generic/common
+commit 2394c25e0b2fc033247b9c2b213e4ac87a0debac
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:20 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+device/generic/goldfish
+commit dac63a2e34a02eb810f0a34523f739dada3dab70
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:20 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+device/generic/mini-emulator-arm64
+commit 0c81f06a2da9c1299168281a4e9d786c96c8b7b3
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:20 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+device/generic/mini-emulator-armv7-a-neon
+commit 8c862765689674fe2dff8c3f2e873678b0d78190
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:20 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+device/generic/mini-emulator-mips
+commit 68232fa79e17075d1034a279ce1f045e0c839469
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:20 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+device/generic/mini-emulator-x86
+commit 5574020ee1263921262a93c4b6319225a6640526
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:20 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+device/generic/mini-emulator-x86_64
+commit 03eaddb0c498b52c1b45b144b5845bf50e854c07
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:20 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+device/generic/mips
+commit ce2840630c86120887e6af6152f45d8cb607a2c7
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:20 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+device/generic/qemu
+commit d8af1b583ace44a7bda059ce90de2299f85db7dc
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:20 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+device/generic/x86
+commit 953c69fb27b43a3d98261dbca63ecdd273421b9e
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:20 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+device/generic/x86_64
+commit 18252dba9f661f57b22d80b4ea67d9ddedf56056
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:20 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+device/google/accessory/arduino
+commit 7c2fbc7497b17f077a8ba51cbf37aea250a011f2
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:20 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+device/google/accessory/demokit
+commit 551569afc01a413d876b15f8946954cfb63d3486
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:20 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+device/google/atv
+commit 69132bd0ffdbe0459c704a0cc43e289d843cd639
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:21 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+device/htc/flounder
+commit 14e0abd52569e7607008689b3cc0cb7bc5ed2743
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:21 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+device/lge/hammerhead
+commit 6a005047d802f94f96f86496ee4de38a35462ce1
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:21 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+device/moto/shamu
+commit 1824bce6fc1f1b6ec397e041143251ad2b295835
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:22 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+device/sample
+commit b65c2928a152a83d46a4d89fa5500fcc4563e365
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:22 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+device/softwinner/common
+commit 881a771c7feeac22f3a2f205c3004e32813d1c4b
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-03-09 16:02:57 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0 release
+device/softwinner/octopus-common
+commit 687926e0da9fdaa98f9ab5a3fc8cb3affcbea2ae
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-03-09 16:02:08 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0 release
+device/softwinner/octopus-f1
+commit 418d9dbe211f3a599a7ab3619eab7cb90838fc77
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-03-09 16:02:11 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0 release
+device/softwinner/tulip-common
+commit 66fcd26805092d399ac51a6b48a6de2b43b05c5a
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-03-09 16:02:12 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0 release
+device/softwinner/tulip-p1
+commit 69eb9d5a4e5636d1e3c571480d329d2f2731cd92
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-03-09 16:02:09 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0 release
+docs/source.android.com
+commit 58044ba4078c5968697d08d88eac8daae78fa456
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:26 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/aac
+commit a3ad08727c7a5fba6e4a412396f0a5dfd54f5b91
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:27 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/android-clat
+commit efc8d5fdea66d6550885d0dfc41f758a50d54449
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:27 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/android-mock
+commit f7f0bdb2b9a0d52abfef8f5b0e0e227c95f07235
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:27 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/androidplot
+commit 16182dfde8c867829740aa973a8acc2c0ca9fcfb
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:27 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/ant-glob
+commit 7b0cdfc4075026335ac03d34ebb2aa0dcb094c43
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:27 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/antlr
+commit 01bdab47f4027114a73b17b914906c38eb5b1a0c
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:28 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/apache-commons-math
+commit 4ae55092d90f8f5fc867a5bdc4925c7baed66e91
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:28 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/apache-harmony
+commit 1c29dea0bf98cdecd0ddd35e399b4c67f8b2f38a
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:29 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/apache-http
+commit 9313da229ad02a6dcf34b5328b2d19caeeaccb0e
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:29 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/apache-xml
+commit 4db80d8d9fd71839998303d91288b71e796a923d
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:29 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/bison
+commit 36cbb7430adde216e4e90a486b657c763e5f9832
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:30 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/blktrace
+commit 1a28315f9bf5cd3c771d67d17a9db8adafa1e1da
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:30 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/boringssl
+commit e6b5ac7507e605df13c7fd7251c5d9a5599f3124
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:30 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/bouncycastle
+commit fdaeb0af7e723832f14e6f3120e3ce062057be60
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:30 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/bsdiff
+commit d89a237d7b1bcf175257fa9ce52a9f116c9e9a14
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:31 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/bzip2
+commit b8b39b16889453402d3f551463239584bcf10757
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:31 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/cblas
+commit e9f10fa8c118f05efe32ac5760e4b2395e86bdcc
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:31 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/ceres-solver
+commit a3c83f70d566a8c46536e29a4126cc0533cb70d8
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:31 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/chromium-libpac
+commit 0260a0af0af88238c93fcee9d36a6f1d1a8da222
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:31 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/chromium-trace
+commit 056a55df32b29d9ea326f443cbf0f0589d6ae9b1
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:36 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/chromium-webview
+commit b4a83c39c161144fff3c97d695dfcaa979e6c456
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:45 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/clang
+commit 75f367aaea17859b2a43bb1c7b0bf2bfe94925ac
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:47 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/cmockery
+commit 3bbee89d059b9f14c3ced8c50ee7c6021a56b9bb
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:48 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/compiler-rt
+commit 369e138e5d10d6d83b6cc4f866b59a1ca79c089c
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:48 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/conscrypt
+commit 8a2e2c6d8fce96b177e465e3c7d1cbeea76e8201
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:48 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/crcalc
+commit c6d118baf341df599845fd076dda669bfc0462b4
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:48 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/deqp
+commit 3a41aa1746d4cf9566922bedb5effaf23c5d286a
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:50 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/dexmaker
+commit 1395ce1aaaa24327f9deb7f0fa6fa0067c4d7f83
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:50 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/dhcpcd
+commit edee8b69ac1648127199c91569bea87e7618214c
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:50 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/dnsmasq
+commit 06bca31719b73e249a4f9614d2226c13c8363e51
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:50 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/doclava
+commit 730d6d0fe058f33a1382b6c605c7f72e18352370
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:50 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/donuts
+commit 005389fb31a67841b5de42f0d25fbfab843e208c
+Author: Qiwen Zhao <zhao@google.com>
+Date:   2015-03-16 08:44:19 -0700
+
+    Initial empty repository
+external/drm_gralloc
+commit 77fd352b7cb2992d49f8d34876639e7c87a1651b
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:51 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/drm_hwcomposer
+commit 02178785a8b3a09c458c2a4e5e956ba5c6426e54
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:51 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/droiddriver
+commit cc9463cddbf2a55ae4ff46dcc08255a9f20db034
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:51 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/e2fsprogs
+commit e0aaf5934f42bf66601e6ec1784bd1da7867d06c
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:51 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/easymock
+commit 703d37724e53a0be600e4ab478d25d4823defba9
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:51 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/eclipse-basebuilder
+commit 1128b2743741b160197ea3acf26e0a1cfb7b3c46
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:59 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/eclipse-windowbuilder
+commit 2ee774638c97e59aa2dfdc204acc238c2423d98f
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:59 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/eigen
+commit e74bd89ea98150009e289428269d6ded9a0a0af6
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:56:59 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/elfutils
+commit 2bf3accc493812a7a160fa4c5737d7109a04f9ec
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:00 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/embunit
+commit 48ea3e203f50107a6f3fa69d3af6e29a1beb52c8
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:00 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/emma
+commit a4588765f2b54cb9373e39363fd078856e73281f
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:00 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/esd
+commit bf63cf61cfc1a169293dd527a2d937d7b002a374
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:00 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/expat
+commit 75ff0aedba10fe08c7f94dd3737270e856e04e38
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:00 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/eyes-free
+commit 92a719ca2f0dab9f77c540386c3130ab03d879c0
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:00 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/f2fs-tools
+commit 6ec7ee2ab626de12034375b8f3b9258b4b3e2cfd
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:00 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/fdlibm
+commit 5e6ac8f81e41893a275c0c2f371d1b58a808f921
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:00 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/fio
+commit 632881a3acccef7f1259c10c7e2247eeddad5f6d
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:00 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/flac
+commit 8689a5b4ecbe76fae4d8836099574e6c2a8e2c70
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:00 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/fonttools
+commit 7b92415e41c979e1e71dc5811d04a1b64359ec82
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:01 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/freetype
+commit f9b939256abae96caa302ed2bc60e447b6fea489
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:01 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/fsck_msdos
+commit 3a7690af98aaad3308047774d1e29957d1e7a01b
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:01 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/giflib
+commit 38c25a77363303767a3a12ada3c31a6934dcc164
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:01 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/glide
+commit b2b860536d6b1f48eacfbc197deebc7bdb22df1b
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:01 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/google-breakpad
+commit 0c43ae6abfb1c4712ac21bf5688f1f0658e46b43
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:02 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/google-fonts/carrois-gothic-sc
+commit d67947f35fcca4eb7991bf2ebb4505890023ae27
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:02 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/google-fonts/coming-soon
+commit 97dd2553a46fec076c724b2ddc8718fba34868a5
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:02 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/google-fonts/cutive-mono
+commit 044ed3b35fe6d71dc26346298ccde92abc5a8a3c
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:02 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/google-fonts/dancing-script
+commit 9edc3b417a67b78696f3cb4235994de9a2543176
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:02 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/google-tv-pairing-protocol
+commit cfeb70365a0ab1bb6b8c115764679cbbfb8cb05a
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:02 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/gptfdisk
+commit 8ac88ce31aa4bcccc45ed6274fa99d6f618bc8c6
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:02 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/gtest
+commit 0027e758a7e95ad672b083c4be2a288ad29ae140
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:02 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/guava
+commit f1f47e763e84343646c8874836880a8f226c3a66
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:03 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/hamcrest
+commit fbe49cb2868a08e9e66368ab18c47a6c2e50ec82
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:03 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/harfbuzz_ng
+commit 7e30fbe9d24a69fe3be78faddc22e37b9d7093f0
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:03 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/hyphenation-patterns
+commit 885a227121da6b68c42dafdf0cbb291340149985
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:03 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/icu
+commit 1ed8ddd7b73c908885b5443b17810bcce331d253
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:07 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/iproute2
+commit 1366ba9d7dc6f348653ca1d4c880aad0a3ef6f69
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:11 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/ipsec-tools
+commit 1b951cbadbc45005c8014700ba5ef4c924a487f3
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:11 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/iptables
+commit c3b8b6aecb6f1821e97297aa41b32eacbf4ee610
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:11 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/iputils
+commit d0fc47e2528061d87ee54cd0ea59d5b1dcd00709
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:11 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/jack
+commit 5ceb2025ac5d25ed48183ac2d3dac4691fe761fb
+Author: Anatol Pomazau <anatol@google.com>
+Date:   2011-08-12 10:52:33 -0700
+
+    Initial empty repository
+external/jarjar
+commit 5539a1a60a84f40cfd017ac6c3da98adfb37b328
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:11 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/javasqlite
+commit 3fc12ed0094acc0f3e1b681522244fbfc204c159
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:11 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/javassist
+commit 9dc554ae176c6609ff42e5143959a89d91d87661
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:11 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/jdiff
+commit cd188b0d4aaaa2f474104a65c4babd3bab157afb
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:11 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/jemalloc
+commit 499d932cb145ae92cf40d757690c8ee112c5ad02
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:11 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/jetty
+commit a20d492413b25951bf9feead028dff3fac3155a2
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:12 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/jhead
+commit f1f84349f35150642ce774e35c8d458d4c126600
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:12 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/jmdns
+commit d4d354bbafd8e2d7feb5f230a58eab7394f42e16
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:12 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/jmonkeyengine
+commit 066c2e2f9a96424ceaba3ad556d873b224ae5e40
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:12 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/jpeg
+commit a92147af59c575b05e63fe0ce9ed5dcf3a3e3b7d
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:12 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/jsilver
+commit d6a02d41aae9ea9be0a449eb0d542487fdd03dda
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:12 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/jsmn
+commit 0eab85ca21e27e6155ca5b2860d5dbcf52328dfc
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:12 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/jsoncpp
+commit df3015a6c8bd06d7f146e0488f86436614bc7dac
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:12 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/jsr305
+commit c00d282216f1c8669b6eddcfe78c475a4e549509
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:12 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/junit
+commit 479cebd6f5f88f03857cdf86dc2c018b6b0154db
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-03-09 16:12:03 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0 release
+external/kernel-headers
+commit 44ad3a7d1f645c427ed25bf144a3ece4e5fc28c0
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:13 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/ksoap2
+commit 3e9215fac490725a4c7c6c2042eb36e8e6994801
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:13 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libavc
+commit 062acc0c67f58399c457c9f85a86a53a46fbf7e7
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:13 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libcap-ng
+commit 6ebbe48d67d55e9f07d9ebdf9970a8d9d36f732f
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:13 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libcxx
+commit 471734a5e0bec1ed6e773bdf20a9d73aa3de906e
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:14 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libcxxabi
+commit eaafd7af9ca6e0050e8cf68e37bd79a4f94fa73e
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:15 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libdrm
+commit 83eebbb3d0c7fd4c06b380563350a868e9aa7ae8
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:15 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libedit
+commit b674a7686bead72aa42cd3117857c91a88d151f0
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:15 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libexif
+commit f8dd8e578dfbb1b2ceeff44872c5c1a4b0fff847
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:15 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libgsm
+commit 28b036870431a595f5eb9002bc52479e99d9260c
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:15 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libhevc
+commit f669731d5f3c3ad7f37c54bbd348315e8dd0f1c1
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:15 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/liblzf
+commit 32bdb01b592c27b75519676ef06760abfce79f32
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:16 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libmpeg2
+commit 472978413295d5813fbd117f01bc4d089d922bee
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:16 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libmtp
+commit 833cf6463eb7ec36ae8051573fa497956e0d311d
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:16 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libnfc-nci
+commit c23e020223aca677f913424041de9021c8722e92
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:16 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libnfc-nxp
+commit 42090b59583d965bc1c407af16217da43ab3a552
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:16 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libnl
+commit ca2262a0a7f29be8037283dd9cf480b0ef4dc110
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:16 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libogg
+commit 354eb04797d8de81d3edd0e4b273eefef717caa5
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:16 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libopus
+commit dfa1d43dd280e89b12daae320b2a530f1950d016
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:16 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libpcap
+commit 32d7cd323d4a47dc94126374ea13e2ab09af3e79
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:17 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libphonenumber
+commit 47db8b5f39071d5c58fb3dafe544a8b4b57ad081
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:17 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libpng
+commit f3ce595cd077607350876b604e40b8ac168770a0
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:17 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libseccomp-helper
+commit e87019943a8b5a7cd0880910f671c37b240d5754
+Merge: e570fa2 1869fce
+Author: The Android Open Source Project <initial-contribution@android.com>
+Date:   2013-12-06 10:46:35 -0800
+
+    Merge kitkat-mr1 into master
+external/libselinux
+commit 8f4e480b1085c591dd1af32290f76d8e5702ff80
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:17 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libssh2
+commit 2bb40f2445cab3ba588efb29e1835cdba2b27248
+Author: Geoff Mendal <mendal@google.com>
+Date:   2013-08-05 14:55:26 -0700
+
+    Initial empty repository
+external/libunwind
+commit d320dcc6906601758615542d176aa6ffbfc0f55e
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:17 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libusb
+commit 3e282fa40c71d378457c51dd63933d7dc21e7c49
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:17 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libusb-compat
+commit 47815e72ffbb695c4bc49c161cfcdd8dd2cf7787
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:17 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libutf
+commit 237330c1942035acbfeeed250a8ca61e3c17fedf
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:17 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libvncserver
+commit 7a8d38b788b82d952dd7db10fae99b1ade33996a
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:18 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libvorbis
+commit d0f6ff62d633974bd7f33a6fbf42b73af4f21ef1
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:18 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libvpx
+commit 89a0c30724e5f10f3ac0e540c96fcd128bb0caad
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:19 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libvterm
+commit c4f2f9252f49d2252a6686a071cba49dd783fe2a
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:19 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libxml2
+commit e70bf6627f0e7161892f3b85a07124366d2bb6a5
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:20 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/libyuv
+commit 9334be54cec8ebbbbafad98e3c7370258ec38e77
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:20 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/linux-tools-perf
+commit 235034a2623d73195191c743d56277ba13cedf40
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:20 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/littlemock
+commit bcf200e2a63446587e8a85e2d5ffd9da4e2a073b
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:20 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/lld
+commit 26c9bb3b51a7ac4bc45f73d532a03cfd9982043a
+Merge: a75b820 10827e6
+Author: Bill Yi <byi@google.com>
+Date:   2015-03-10 14:58:02 -0700
+
+    Merge remote-tracking branch 'goog/stage-aosp-master' into HEAD
+external/lldb
+commit 33d0db914b37bd112c9ce7dbe2aaa066ae7d5369
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:22 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/llvm
+commit 0757bef9d6fd1c11b2c70ea09947a3a334abe539
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:25 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/ltrace
+commit c42f8ce3f84d7bcab42a0c0225d3043f3d1f6a0b
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:27 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/lz4
+commit 6e583b733c6c66f714255852fe584b02ed57b77e
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:27 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/lzma
+commit ad2086413a1db6b2c82d203ca5b48a3110530645
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:27 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/marisa-trie
+commit b9773a37ad39a4dbf6b69e7ea5537c9b50dfeb4e
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:27 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/markdown
+commit 04b117d9c557f0973dfe19e1ac04dff73de7377e
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:27 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/mdnsresponder
+commit a56a5d94f0b8dc2ed7347032aaa262b5e88cba21
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:27 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/mesa3d
+commit 3cd2a64103e7cc8b743c85624a03f9adeb846db4
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:28 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/messageformat
+commit 5dfcd2c9103e88c48fbe4ba07a98910ff26f9140
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:29 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/mksh
+commit 56d8c69dd3772042a74a7c27f5c6f7c632b0ba14
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:29 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/mockftpserver
+commit 393ad5295c8b80335e890fff35bd184a43d697c1
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:29 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/mockito
+commit 536237d341fd649a44a1e8908b9f1a2a7907be85
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:30 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/mockwebserver
+commit e06adb2d0a9dd63825f7458f7534221222460c1e
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:30 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/mp4parser
+commit 4a5c64fa6bd3447070c9b3ee5f9975b1077d4728
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:30 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/mtpd
+commit 0bce0b8325113691f26a64e8b0de52bbea4dfb43
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:30 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/nanohttpd
+commit 4d67c688d818f8b18e4774de027c07363ef32243
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:30 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/nanopb-c
+commit a9ff86b2d7bfa181ca8ee91730cc6523c95554cf
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:30 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/naver-fonts
+commit f728d7b7ee3db2e4c391f965782a1e6f31a84166
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:30 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/netcat
+commit b6bca357fedda708fa1d4201542e49ce9bc93eab
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:30 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/netperf
+commit 1f9411bc824a5c658eda2c5381f7a5eafb4e7bea
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:30 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/neven
+commit eba35f89de09f8a8232db7366d6179a8c76ca778
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:31 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/nfacct
+commit 1649d19639aa1f07aa901b4f1ae050114b4b4563
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:31 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/nist-pkits
+commit 49c17013007461348daedf53978a155a46d8afbf
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:31 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/nist-sip
+commit 27460e89448f49772cc1d922844caf1ca3af9a51
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:31 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/noto-fonts
+commit 09a0974f0348a6fcbc11e75a1d08f2e60b306ea3
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:32 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/oauth
+commit 290015a8a29339154042601ad692e192dfee9aba
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:32 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/objenesis
+commit 399254da0208b87d155d0e63619f1787057b649a
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:32 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/okhttp
+commit e56a63e4d2755e206cd2caebe1863ce624c6ebf8
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:32 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/opencv
+commit f30295fe41c28fe5f1636614f7e7daed09c06621
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:32 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/openfst
+commit edbbb80a97c9ba9e1c917015015b85b297c491a0
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:33 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/openssh
+commit ea2d8d86ac9f7c2c8acc9db30df6c1e3a73b0c4e
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:33 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/owasp/sanitizer
+commit 95ee782ae4bdd1de4ba050cc8709bdba7826c08d
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:34 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/parameter-framework
+commit ae03312f92180f509a6bcec8607f5080c035ba57
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:34 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/pcre
+commit da24b722215b278496905151ee193fe54906e0bf
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:34 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/pdfium
+commit 50bf9af55e69550c418318a6fdc190ccf6f86fe3
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:35 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/ppp
+commit de8944669870849ae491c225c40158d7466e72d9
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:35 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/proguard
+commit 843e51a34a6ed2c6c0f1155ae29782f7fedf3327
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:35 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/protobuf
+commit 315f60f600c06bd7b258f8eb16b8d92cc0d000ad
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:36 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/regex-re2
+commit d1d5e424497aa6de55da778e8b3490320c1fa364
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:36 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/replicaisland
+commit ce68bf8f1eefe7e47adbf8ffb192dc221c01532b
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:36 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/robolectric
+commit cbe0f516d65103ed5a51eefc2d523fef21aef63a
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:37 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/roboto-fonts
+commit 7685caecc25e04086363d9ec2f6ff5eecc00ffbe
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:38 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/safe-iop
+commit 44c8d690a999cab4a73183533b83b0f963681bc7
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:38 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/scrypt
+commit d6cc313eebe7bbb34e174b6bd1a680e51fe1cb35
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:38 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/selinux
+commit cd4565c0e0f8b510037d74dbb75306ecef40c9ae
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:39 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/sepolicy
+commit 2a12397db206f4bcc4c580ed90d03bc599408d89
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:39 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/sfntly
+commit a7514295dd7325795d7fd66dc33bcf49b3acb014
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:39 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/skia
+commit 2b24f69f5047d0d2b2e868f92baffc4ccc7dcda0
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:40 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/slf4j
+commit 9af78d7e3bcbcd6a02149618b0b98dc29be8319e
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:40 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/smali
+commit e839b96b2edf4839bd412278fff4d51d80b348fe
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:41 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/sonic
+commit b0e9eaac14330460cae795a4ce1c8a7031bbbd13
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:42 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/sonivox
+commit 139b980196aedba7684a635a796d70047d621b95
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:43 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/speex
+commit 7f4081bdb81bf0a732387513e71e4f3b132c970c
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:43 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/sqlite
+commit 7e161b7d2e69e4abe240353333d27d6a92714f0c
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:43 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/squashfs-tools
+commit 52e386b156bf0bd8b86117b2b334eac6b1f84f47
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:43 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/srtp
+commit f93bf83f1fc6e22072a846b598456b2e0ea273bb
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:43 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/strace
+commit a3c247244750db4d8c423af0ed54794c657338dd
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:43 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/svox
+commit a52f0919713d5942ea240a8c7f86a62b4af67265
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:45 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/tagsoup
+commit 1e689bcc3a73ba008cc67384c38852920e680af7
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:46 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/tcpdump
+commit 400e718d7f7d11d93b401defb5ed9dc222cc0bf1
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:46 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/timezonepicker-support
+commit 649a287ff8d9cec17fd52fd7eaf4b92602d800bb
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:46 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/tinyalsa
+commit 80f237537cf15b388d61322745c9d74f5dca725c
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:46 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/tinycompress
+commit 16805e8733fe1ce0c3cad11482876e9ac30330cd
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:46 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/tinyxml
+commit 8d9f048837cc948bfb79eefa08aeccb9ccafdd9c
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:46 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/tinyxml2
+commit 842777d03a0f9ae6a77e0d4b74dd4bb475029572
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:46 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/toybox
+commit 376edd24320a7876fccc10074781e4153bd080ce
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:47 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/tremolo
+commit 2695b00b195174472dbeccc915889f8572648218
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:47 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/v8
+commit 5b39482a4dea3d9719d04d8af1fc79cd822ce901
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:49 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/valgrind
+commit 9d0d09bfe864d95d3bb23fb4d626770833cb37c3
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:51 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/vboot_reference
+commit 42d30d4d0b60264a58d18ddf2d573530dfe4bca1
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:54 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/vixl
+commit 9fee9d9fe4288c824ea4563107f4b249b1ea9049
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:56 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/vogar
+commit d0c575517408a89fee1b88f511bcf58b43ca40bf
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:56 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/webp
+commit b4ec7eefc06310c5d3acc294f9640ed7566dea10
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:57 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/webrtc
+commit 35833d530461600684326a2f025168cd038f55d8
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:57 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/wpa_supplicant_8
+commit e56b1d4ccc54750883bd0089d207788cd0632bc5
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:57 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/xmlwriter
+commit 42034b934fe1fd2245eedb684a341c01e622a43d
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:57 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/xmp_toolkit
+commit b0f32982304b9b10bffdfcd145ec7bd0ff6b4e8e
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:57 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/zlib
+commit b0c447dda3af6b080ba3d232622d55abfa0fa1a4
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:58 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/zopfli
+commit 737956d87bdf9629fa55ced6b2971b20ae36b6cc
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:58 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+external/zxing
+commit f3c6be14befc96314b8e167355a6ca92e529ee99
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:57:58 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/av
+commit 4729d079e2408cc980239ad6d9345a18b2690415
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-03-09 16:23:27 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0 release
+frameworks/base
+commit 1257b0f0f399bba1c3c8822cd21a1e9ce2286929
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-03-09 16:23:03 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0 release
+frameworks/compile/libbcc
+commit 1a0d1cceec4e62d3457cd5b11a2d9abd75140ad1
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:44 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/compile/mclinker
+commit 4ada269d871a4a196458dae5a37f98f4e18fe7d5
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:45 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/compile/slang
+commit d8e76ca4f6749c313bbde675276b2af43532111d
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:45 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/data-binding
+commit 691dd79bf8642219f8d828ce36961a6f172064b7
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:45 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/ex
+commit b3bc3ba4a3838a54ec7e1f3f2b2ac1e62df032da
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:45 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/mff
+commit b9669b8540a1e5c953374d53b115514335e23c27
+Author: Anatol Pomazau <anatol@google.com>
+Date:   2012-04-20 11:25:59 -0700
+
+    Initial empty repository
+frameworks/minikin
+commit 8610af7fcb1c7f715676ce97993581795cef8cf9
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-03-09 16:23:30 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0 release
+frameworks/ml
+commit 849f9d6ba97d4042e001d051a3a6ec1382601518
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:45 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/multidex
+commit 929df545780bf5a6951da22f73600f16e2404ca0
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:46 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/native
+commit cd896c223f788372da53bd16306abf1f21731c28
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:46 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/opt/bitmap
+commit 120b6281aba99793211557e20aa9279317ce0acc
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:46 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/opt/bluetooth
+commit 2c3563c1e227ecc0c69029ee35e47aff41e04d71
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:46 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/opt/calendar
+commit 6031146158cfc655c15563a3562322b1ca2e4b08
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:46 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/opt/carddav
+commit f08aa2df132dd8dc32a0013d3750137d9dd9280a
+Author: Android (Google) Code Review <android-gerrit@google.com>
+Date:   2011-04-27 15:51:05 -0700
+
+    Initial empty repository
+frameworks/opt/chips
+commit 1f06d4a853b57f37de444094bc1cdf399780afe7
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:46 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/opt/colorpicker
+commit 569fc1b5192fb3ab6f2561c8fb548b156aa21ea2
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:46 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/opt/datetimepicker
+commit 76b153e737759874067592593e8cf01d11cd3e75
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:46 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/opt/emoji
+commit 0125657e932476c63dc1e5866a189bad4212c3ba
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:46 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/opt/inputconnectioncommon
+commit 3baece9b20fa480da46d860acd7320fd9eee3386
+Merge: 6a11cdd 0625549
+Author: The Android Open Source Project <initial-contribution@android.com>
+Date:   2014-11-06 17:44:48 -0800
+
+    Merge remote-tracking branch 'goog/stage-aosp-master' into HEAD
+frameworks/opt/inputmethodcommon
+commit ec72a0ac3289d17aedc33929fea0c7b70c5af897
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:46 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/opt/net/ethernet
+commit 89449cbf12308564496f48284861fbd026f5e4af
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:46 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/opt/net/ims
+commit 5fee5ff22d80b1cf5721ca57724b523cb774636c
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:46 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/opt/net/voip
+commit ccc1b20a84fba7f0591a4c02645cc2d60d37c684
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:46 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/opt/net/wifi
+commit 095c6c1ba8ed57a4924540987c52b289a0388762
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:46 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/opt/photoviewer
+commit b991b5d6172eaa21e29a685ee16c2c7ad9067b06
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:47 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/opt/setupwizard
+commit cea4f7612ae92e4e2f2f2c448cd0c012bc91cf32
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:47 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/opt/telephony
+commit bcc4cde7a5e4dd5733f97c1ca3e7f023637530fb
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:47 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/opt/timezonepicker
+commit 62d9af23dfe83828f083c03637c1106d963ec04b
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:47 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/opt/vcard
+commit 9d35de9edcb5e5b88c7b2f7d14d1aae2777ea291
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:47 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/opt/widget
+commit 466e0e0307b3f6aa4f4be3d9419b5996bd389da5
+Author: Geoff Mendal <mendal@google.com>
+Date:   2013-07-22 09:17:00 -0700
+
+    Initial empty repository
+frameworks/rs
+commit e38eb53a6a8949fe697768044054f1e6cf44b21c
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:48 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/support
+commit 0845327efcb90c13bc58fd1e6b1675d83b6cb949
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:49 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/volley
+commit 93c1113cf78d38b5e2f949ee2872995c5c35d000
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:49 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/webview
+commit 1dfa40bb6f6740f3f7cec0dbfbef1f75e1635308
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:49 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+frameworks/wilhelm
+commit 0295e121e9e8b5b48a8140c948d58ea3713ca012
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:49 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/akm
+commit ffe2c71977f00fef3348858ef4a4df88031fd596
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:49 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/aw
+commit f193a4c9d2a113f6153b303aab8c8c0fe62c8baa
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-03-09 16:18:59 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0 release
+hardware/broadcom/libbt
+commit b1d9a05533c65fa48024e0adc594874fd8b15181
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:50 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/broadcom/wlan
+commit c8c55f1ffd62cdc7fa89f9ca980da94f33e3f39f
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:50 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/espressif
+commit 5f0ad95c9ddc38d55c71511bd21bdaa16c0ce409
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:50 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/intel/audio_media
+commit a1b50aee5feb2e86fbe5960c559138ea247dc37b
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:50 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/intel/bootstub
+commit 674010bc1b58577b0af9bb06f82007f84eff98b7
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:50 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/intel/common/bd_prov
+commit 8af329f2d2b54dfcfa84051d3ce1fae95f79011a
+Author: Geoff Mendal <mendal@google.com>
+Date:   2014-08-04 11:59:48 -0700
+
+    Initial empty repository
+hardware/intel/common/libmix
+commit a9d33f41dc89b72354f2fc2b8cbb3c1b32d38b8a
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:51 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/intel/common/libstagefrighthw
+commit 780955e059332811624932e71781a81196f70133
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:51 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/intel/common/libva
+commit 8ce1021d4616ac3e512c0409960a6482e57ce256
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:51 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/intel/common/libwsbm
+commit 0ddc54b173797568dc61eea46b6f887f0bc0ca3a
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:51 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/intel/common/omx-components
+commit 1dd81e9df19dc5c91718ae05de5d2d30fc7eece0
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:51 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/intel/common/utils
+commit 2f569e574cae8494adc9658f322c03e0aa34aeb7
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:51 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/intel/common/wrs_omxil_core
+commit 8a06aa83e1d8122516391af6ebd80ca80e2b4e4a
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:51 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/intel/img/hwcomposer
+commit 38b2349035bc304ac5022537d97104a83105234e
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:51 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/intel/img/psb_headers
+commit 1eb659fda70f51f07bd8724c29013a9667d4c0cf
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:51 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/intel/img/psb_video
+commit f76431399f6508ecd350ac44bee06878df893742
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:52 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/intel/sensors
+commit 6ef7662419981a762df75fbc57fcfde52902c123
+Author: Baligh Uddin <baligh@google.com>
+Date:   2015-03-03 10:51:50 -0800
+
+    Initial empty repository
+hardware/invensense
+commit 8508700ad201a1a600d065ea9ec4967ca3ddc05f
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:52 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/libhardware
+commit c4e04dd25474b3a0554e4ea543ab1d0232d59d43
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:52 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/libhardware_legacy
+commit 74aa26c5e392181986d25e481a4c09129097a54c
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-03-09 16:19:02 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0 release
+hardware/marvell/bt
+commit 493536df5a75f3ea508f62e2888f472250ec02ef
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:52 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/mediatek
+commit 7e4f63de30b6b490344ae9351fbdbee6e7822564
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:52 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/nvidia/audio
+commit 3134b055c05e3681c1f71eed23bd0bd8e57ddfa7
+Author: Chad Jones <chadj@google.com>
+Date:   2013-12-10 12:37:44 -0800
+
+    Initial empty repository
+hardware/qcom/audio
+commit aa535e7424f483c69345fcc4fde056db7a0d821f
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:52 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/qcom/bt
+commit 3f1a03bfe946100c9406d0ed73f781759964564d
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:52 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/qcom/camera
+commit 6f9379a9ddf60802455617edcd4f7b0ee6d8c719
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:52 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/qcom/display
+commit cc041fbb80b0bc1e8c780c379454074a204f05f2
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:52 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/qcom/gps
+commit 9a49b268e5c16eab37ba1ba03f842723e787ae43
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:53 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/qcom/keymaster
+commit 9b200c79bf33e6de1e156faf448440a8854618e8
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:53 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/qcom/media
+commit 701edf870c0f9c700083113dbf32f6a881842fe3
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:53 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/qcom/msm8960
+commit dba60259aa19dc455f970843d39b8b41fa6e5b2f
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:53 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/qcom/msm8x26
+commit a19d695310e6b32f6968de23d7af254bf86a6756
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:53 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/qcom/msm8x27
+commit 704e79088cac29e8d1b59251eeb5fcbb95bb2758
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:53 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/qcom/msm8x74
+commit 51787c339683cf44572a652f0004dde30ce81886
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:53 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/qcom/msm8x84
+commit 32532fccb867079ced301a0693f0ff3c0f08d4b6
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:53 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/qcom/power
+commit 518e3dabcca019d7692db121b08777f19c7c11b2
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:53 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/qcom/sensors
+commit 07c5bcdb36158e22d33bac02eecd83d4ff1fb2f8
+Author: Chad Jones <chadj@google.com>
+Date:   2012-09-13 10:14:52 -0700
+
+    Initial empty repository
+hardware/qcom/wlan
+commit 59d691e64ca1daf2c2cf6cc647c7f6be7de2b11d
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:53 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/realtek
+commit ea917e8404dcfc2134be532a6be9f74638fe1b41
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-03-09 16:19:02 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0 release
+hardware/ril
+commit 4a18b19c301818428cdef40b847e0ed7f248b88a
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:53 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/ti/omap3
+commit a2de4fb761835d137d3faa262de500fd8e5e0516
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:53 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/ti/omap4-aah
+commit 5fb6a06ed11b86296e235361a8e4a28f35553181
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:54 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+hardware/ti/omap4xxx
+commit f2b55c1b525451c64a5fccd3848f44ad62b05188
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:54 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+libcore
+commit 87956bcc0003a583ced080b39a3ffe39f026093b
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:55 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+libnativehelper
+commit 814f50d4d5a6c0a4ecf69b127ed00c0961819238
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:56 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+ndk
+commit a8cded1b111a7438560ede62f9f6e770428f1542
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:58 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/BasicSmsReceiver
+commit 79436b7a6203b42743deb00b9b38ca63b812014b
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:59 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/Bluetooth
+commit cb6af40a71f521b1ee2a439fa23e2aa601f7257a
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:59 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/Browser
+commit 93c11cfcab0f23ded4b6c4542b6fde1b1fed8d7f
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:59 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/Calculator
+commit 04963902435d84916abcf3fc388fa94c65ca2900
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:58:59 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/Calendar
+commit d2edd5cad073d52222e54000d9024fa375f5e74a
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:00 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/Camera
+commit ad53cf3e8e2d25fc8d0b6e8c9b2454ca9848f7ab
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:00 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/Camera2
+commit e270d7fd584bf3296e516ad77a08ad985399a57c
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:01 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/CarrierConfig
+commit 0b56f4aaf08fb4f78e1a477dd714adf7943008ef
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:01 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/CellBroadcastReceiver
+commit 46865fa1fe3dcda452bcb224d1d92abfae18e5bd
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:01 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/CertInstaller
+commit a17f548d7f4bf39fe50959e9ea4d917b25b1efc4
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:01 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/Contacts
+commit d7f6b6822fe668224cc4838864f57bd80d46e93c
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:01 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/ContactsCommon
+commit b494801033928b06672aba0d65812589e4e17a14
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:02 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/DeskClock
+commit edba615857ae50c20de6b3a39c849d2fbf1b6a4b
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:02 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/Dialer
+commit 25d543640b7d2370d7319292c1b5b77033bbfc9a
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:02 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/Email
+commit a70f966f7a1e937cea864ef9679cff88c7c3a9a2
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:02 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/ExactCalculator
+commit b492de8fdf8b664f904e0b91d90ebde7ec94b952
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:02 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/Exchange
+commit a6769f884fa07dd5e666e344dfa0258e08fd2be0
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:03 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/FMRadio
+commit 67cd4ea087f2ec64480bf4cd32fefb987ae07f17
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:03 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/Gallery
+commit d6bde3b505e6cf74fc6cf1de9b0f60a8ed6328dd
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:03 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/Gallery2
+commit b6860ba2c6c98bccaddee611fbd1cec7445514a6
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-03-09 16:24:56 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0 release
+packages/apps/HTMLViewer
+commit 67313821c6bb6a6f2b030b834f003dcb84b9affb
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:03 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/InCallUI
+commit e554ef1e5c0961942b96ed37da23e9c3fa13315e
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:04 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/KeyChain
+commit f659402efa886106c52ff84759b5f96e0ba4f33b
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:04 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/Launcher2
+commit 864ae3f570576a5c9a8d236f5a2fa677035d8f32
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:04 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/Launcher3
+commit fa8971357ded55ed9e6b5043458f8a38b954abe3
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:04 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/LegacyCamera
+commit 5ec71eaa185a090ef05610b41c76362b50fe61cb
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:05 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/ManagedProvisioning
+commit b7ebe2f629f1803e72f3c6dba1cd388439181084
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:05 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/Messaging
+commit fd179cd4c2156aa738627a7ea5ca750993fb9a20
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:05 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/Music
+commit cac2f84e24f0d58845fa0a30ae360b2ef5fd54f7
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:06 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/MusicFX
+commit 39c084fa1f0cff1a7c51165d2224a407ca4f6edf
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:06 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/Nfc
+commit a8a20292383369baff5b199b300498da39b0bf7f
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:06 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/OneTimeInitializer
+commit cf63c5af364a1dbf595da94e4b70b41b7497f4f8
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:06 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/PackageInstaller
+commit 4fe0ad76562fa2c7674d0ddf186db9564024eaa5
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:06 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/Phone
+commit 79731f02b7009206a01182d2cca15dfc8491da09
+Merge: ae37f67 bf4ec5b
+Author: Santos Cordon <santoscordon@google.com>
+Date:   2014-01-30 08:17:54 +0000
+
+    am bf4ec5b1: am e653803e: am e32fd589: am 297d905a: am d53752da: am 3e8d0a1d: am fd8ebadd: am d2fec3d6: am 61555c8b: am 448c256d: (-s ours) am 6c91d20e: Fix exported property on NotificationBroadcastReceiver.
+    
+    * commit 'bf4ec5b1258628bfa6a82aa0d80f348a77bbf194':
+      Fix exported property on NotificationBroadcastReceiver.
+packages/apps/PhoneCommon
+commit 294011c596c07727ef9e451c357a34ca8ba2f928
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:06 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/Protips
+commit d439ae7732fbc85ae16f129b010ab5864f7e473e
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:06 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/Provision
+commit 3cdd3c58d4d201313ee187b301689fe3fdb3f5dc
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:06 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/QuickSearchBox
+commit ade18e26ff24e70b8e840dc15bac0d10291cd4c1
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:06 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/Settings
+commit 23765628f35ada2af955ed2d0bcc85ba2981c011
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-03-09 16:24:50 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0 release
+packages/apps/SmartCardService
+commit 29eae320a4bd222b5ff1c092f84f1aebba88d0b7
+Author: Anatol Pomozov <anatol.pomozov@gmail.com>
+Date:   2011-05-24 09:13:37 -0700
+packages/apps/SoundRecorder
+commit 6b53d4418cb90dafd70fb62b5fd9b7f55ef7b39f
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:08 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/SpareParts
+commit 13a989e5dccbd7f80831b279fb17a43d3471b718
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:08 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/SpeechRecorder
+commit fd29b71146093ecaf0906918a662b5419345038f
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:08 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/Stk
+commit 2e278ad8d3d7263f3d2730c7b99aaa152de66415
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:08 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/Tag
+commit 280f29cbb594f57888164b19bd5339d8dda39657
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:08 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/Terminal
+commit 223e0654908c990730b4dbf517bd6014f08b7eff
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:08 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/TvSettings
+commit 11505b36e1e819d4b7086da31ad2db52037b3814
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:08 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/apps/UnifiedEmail
+commit 61f96fcd4f979526607cb7d45a390af20cae0fb7
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:09 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/experimental
+commit c3cf0784ee31221078e148b9c926480261e8717e
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:09 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/inputmethods/LatinIME
+commit c834377b06f7013d7aac8a91820e4438bdfea880
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:11 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/inputmethods/OpenWnn
+commit 084bc994592926816c781b9ed2b85104ac370324
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:12 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/providers/ApplicationsProvider
+commit e6e19d05aa56fc98e61d63c90838121e1997f9b9
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:12 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/providers/BookmarkProvider
+commit e69112d244d5de0b88c13ea82d99add777ffb442
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:12 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/providers/CalendarProvider
+commit 6bd28ad467860a0eadfd09632486a85988f41ea9
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:12 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/providers/CallLogProvider
+commit 2a933a591c8df48b76b7984fb0d70895d184c176
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:12 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/providers/ContactsProvider
+commit 67356955a58859580d45c951845281251b8c43b9
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:12 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/providers/DownloadProvider
+commit 73a7b43dfc309b196d6f7873535e479e02cff5ad
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:13 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/providers/MediaProvider
+commit 9e90e1cf24f3e1fa274059c555e2c406ed4eeae4
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:13 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/providers/PartnerBookmarksProvider
+commit 739f66b0eecdf8ccefacf0ceb9ba9cd20dbbf775
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:13 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/providers/TelephonyProvider
+commit a228ae674c4ae18eea7a9069268cec1c24c43994
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:13 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/providers/TvProvider
+commit 893b4a70eec9a00c006e2a64780d67c003f12e73
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:13 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/providers/UserDictionaryProvider
+commit 158f7cffbaa5bc3cd85aac37b5cbea77db21fed5
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:13 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/screensavers/Basic
+commit 97103a04202e74522f000bef8684ddfe91d11b64
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:13 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/screensavers/PhotoTable
+commit a96caf280100290f3e10b42038e1ad6ebfb8e3b4
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:13 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/screensavers/WebView
+commit 5eda1524b71e86cf01f035c84b8bfa247f35ebef
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:13 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/services/Mms
+commit 96b54141eea354dd22268d4f894966ee17ae4f50
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:13 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/services/Telecomm
+commit 9d0ef24420401105925965ded3b5aeb56a7f934d
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:13 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/services/Telephony
+commit 62e01a96fdc6d923df51cd16bb51eff8c112f178
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:14 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/wallpapers/Basic
+commit 58d2cccfb10f00fb065adba9d2f718a25a8a0171
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:14 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/wallpapers/Galaxy4
+commit c1ba3bf9522cbacc60d193e5d90a569c55092557
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:14 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/wallpapers/HoloSpiral
+commit 55d329364354c226d0bf33756e50a875093f5221
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:14 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/wallpapers/LivePicker
+commit 0bc1110917b85ca53dd728d80623c181635f122d
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:14 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/wallpapers/MagicSmoke
+commit 9272aaca994f6e413bf7f908d8ae294cc15f6dde
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:14 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/wallpapers/NoiseField
+commit 0e9deffd939b4794db77cb4998a352ff28ea826b
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:14 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+packages/wallpapers/PhaseBeam
+commit 7d7eaeb6747f6d4490ec13e72b1c94b1c4b4fdde
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:14 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+pdk
+commit e985eedbee2aac081d067f0a19ca8eaa4e894e98
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:14 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+platform_testing
+commit 0387d6c7a41b9d71aa27645ccc34cd6719fba169
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:14 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/clang/darwin-x86/host/3.6
+commit f6c94e99780c5c5c9f88b6c4acfffc110480c9ec
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:16 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/clang/linux-x86/host/3.6
+commit 2edf193b0dc41b4fcc1fb17ce98c234345cef4cb
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:18 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/devtools
+commit 9d8b073c5a16513f0f48133262c667bc4cb3e49b
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:20 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/eclipse
+commit 90b6119d269ebd5cddd9f6d856e2d20b3b416a31
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:34 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9
+commit 731b29fc5c297b119580ad0e6401b8b79c406333
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:37 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8
+commit 0c47ced1a5c2a1f5022bde3379b961d81a74d987
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:39 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9
+commit 159aa79e7226efc2d712312824ad14193a928395
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:42 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/gcc/darwin-x86/host/headers
+commit 4ac4f7cc41cf3c9e36fc3d6cf37fd1cfa9587a68
+Author: Baligh Uddin <baligh@google.com>
+Date:   2012-12-04 13:29:02 -0800
+
+    Initial empty repository
+prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1
+commit d3e6ca855ec9f14a18cd89609a5c99a30119e145
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:46 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9
+commit 23c50ac09f81fc3966ad25378c8c2f553c7581c9
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:48 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9
+commit da1b5aed9af878b429ecc60036500044bf57e088
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:51 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
+commit 6b2ed8d56710c3a09053625419fbb44d078e0c2d
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:54 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/gcc/linux-x86/arm/arm-eabi-4.8
+commit b5b7e9ecf4849afefa3de607c2e853ac96eb636b
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 13:59:56 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
+commit b987268bf2e39b38ffcb8f801b1db5201bd9659b
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 14:00:00 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8
+commit 7140ba4b30dbdcf5d569898fc3508d5004a253fa
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 14:00:06 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8
+commit 6280594fa7a91d3aafb4ccbd50a752c4e28109ea
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 14:00:13 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8
+commit b1f9bb1ffbe316a6ea1013ccd737f9e834edeb2e
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 14:00:19 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9
+commit 0b9f39e4842f4f2e536cc8b136bfef7bbc5bcf22
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 14:00:23 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9
+commit 276b0d9d11caa10d3443bd81b5b1806c1400f071
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 14:00:26 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/gradle-plugin
+commit 1bda0fa966da0885c72b1fad55bd9c6e1a37ea2a
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 14:00:44 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/libs/libedit
+commit 5769039758a34d31b845d70c9804ea6917f56c06
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 14:00:45 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/maven_repo/android
+commit c6d864284ca6fc9e834c2ba6b8c0884f3e257c2d
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 14:00:51 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/misc
+commit 57bfb932e1ef9c9a2df4f24d58cdc73e754333ac
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 14:00:58 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/ndk
+commit 181247b9d3c471999478092f4ab54648ef99300d
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 14:01:18 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/python/darwin-x86/2.7.5
+commit 480dac4cb422127986c5cbb1eedf74ec0669dc08
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 14:01:26 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/python/linux-x86/2.7.5
+commit 98e0739dc31aabaa1622fbf875fbabdb912ca796
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 14:01:28 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/qemu-kernel
+commit e5af6b2b36e6a69b6c83d5bac1fa55ce5c6583c8
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 14:01:39 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/sdk
+commit b7d26ce796f6de5c5b1aba8f49035d75d128477b
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 14:01:58 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+prebuilts/tools
+commit 81698c7785676377d4517b5d8a433b5de33b1981
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 14:02:16 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+sdk
+commit 2fb1fc697d5bdee8d8a9f30df8ce1dfd548f8fce
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 14:02:17 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+system/bt
+commit 935dcb42933e91d0427c114e80c78d6b218d8ce5
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-03-09 16:11:40 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0 release
+system/core
+commit 547b30a1d42cbaf19963aadb7c65a945cd63af13
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-03-09 16:11:38 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0 release
+system/extras
+commit ee4259e6e2d340a26b7bda85c294f4afb89e33ef
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 14:02:18 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+system/gatekeeper
+commit ee209cbe73217a055bc0603755dfbba5081643e5
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 14:02:18 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+system/keymaster
+commit 0d3834fdb6fe92fc5ff81d2b715afb36b6a262cd
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 14:02:18 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+system/media
+commit 6e462d1f315e3876b171ae2fad7702d7e92dd386
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 14:02:18 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+system/netd
+commit 52cf8b2bd00678fba538e7dfb6dde085e96e89a0
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 14:02:18 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+system/security
+commit df9373925f223b0063c9fcfecc1423ed91442ee0
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 14:02:18 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+system/vold
+commit 62509b4dd06178195231f8697fff5e1ce55592fb
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 14:02:18 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+tools/external/fat32lib
+commit 0d01501e156bd8e38b5740f99f18ff058445786d
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 14:02:18 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release
+tools/external/gradle
+commit 6e6ef8dd51a252ad2971b871ea4095f8635227b8
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   2016-02-02 14:02:46 +0800
+
+    exdroid-6.0.1_r3-a64-v2.0-demo release

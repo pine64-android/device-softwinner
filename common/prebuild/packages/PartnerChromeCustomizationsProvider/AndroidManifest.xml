@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2013 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file.
+-->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="com.android.partnerbrowsercustomizations.aw">
+    <uses-sdk android:minSdkVersion="12" android:targetSdkVersion="12" />
+    <application>
+        <!--android:authorities must remain as it is. -->
+        <provider android:name="PartnerBrowserCustomizationsProvider"
+                android:authorities="com.android.partnerbrowsercustomizations" />
+    </application>
+</manifest>

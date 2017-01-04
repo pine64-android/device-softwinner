@@ -1,0 +1,32 @@
+type logger, domain;
+type logger_exec, exec_type, file_type;
+init_daemon_domain(logger)
+
+allow logger logger:capability { dac_override dac_read_search sys_admin sys_resource kill chown };
+allow logger logger:capability2 { syslog };
+allow logger kernel:system { syslog_mod };
+allow logger kernel:process { sigkill signull };
+allow logger system_data_file:dir { read open getattr };
+allow logger system_data_file:file { read open getattr };
+allow logger system_app_data_file:dir { search };
+allow logger system_app_data_file:file { read write open getattr };
+allow logger app_data_file:dir { search write add_name getattr };
+allow logger app_data_file:file { create open  getattr setattr read write };
+allow logger rootfs:file { execute execute_no_trans };
+allow logger system_app:dir { getattr search };
+allow logger system_app:file { open read };
+allow logger logdr_socket:sock_file { write };
+allow logger logd:unix_stream_socket { connectto };
+allow logger property_socket:sock_file { write };
+allow logger shell_exec:file { read execute open execute_no_trans };
+allow logger logger_file:dir { getattr search read write open add_name remove_name };
+allow logger logger_file:file { read write create open append getattr unlink };
+allow logger sysfs:file { write };
+allow logger init:unix_stream_socket connectto;
+allow logger system_file:file { execute_no_trans };
+allow logger fuse:dir { search write add_name };
+allow logger fuse:file { create write open };
+
+#allow logger default_prop:property_service set;
+allow logger ctl_default_prop:property_service set;
+

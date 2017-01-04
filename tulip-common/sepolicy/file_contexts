@@ -1,0 +1,62 @@
+# label graphics device with a new type, we need
+# to allow write operation from appdomain
+
+# gpu device labeling
+/dev/mali              u:object_r:gpu_device:s0
+
+# disp device labeling
+/dev/disp               u:object_r:disp_device:s0
+/dev/transform          u:object_r:disp_device:s0
+
+# Bluetooth
+/dev/ttyS1              u:object_r:hci_attach_dev:s0
+
+# Block labeling
+/dev/block/mmcblk0              u:object_r:root_block_device:s0
+/dev/block/by-name/boot         u:object_r:boot_block_device:s0
+/dev/block/by-name/system       u:object_r:system_block_device:s0
+/dev/block/by-name/recovery     u:object_r:recovery_block_device:s0
+#/dev/block/by-name/userdata     u:object_r:userdata_block_device:s0
+/dev/block/by-name/UDISK        u:object_r:userdata_block_device:s0
+/dev/block/by-name/metadata     u:object_r:metadata_block_device:s0
+/dev/block/by-name/cache        u:object_r:cache_block_device:s0
+/dev/block/by-name/misc         u:object_r:misc_block_device:s0
+/dev/block/by-name/alog         u:object_r:log_block_device:s0
+/dev/block/by-name/private      u:object_r:private_block_device:s0
+
+# factory reset protection partition
+/dev/block/by-name/frp          u:object_r:frp_block_device:s0
+# zram
+/dev/block/zram0                u:object_r:swap_block_device:s0
+
+# Bluetooth
+/sys/class/rfkill/rfkill0/state u:object_r:sysfs_bluetooth_writable:s0
+
+# cedar_dev
+/dev/cedar_dev    u:object_r:cedar_device:s0
+# preinstall
+/system/bin/bootclone.sh   u:object_r:preinstall_exec:s0
+/system/bin/precopy.sh     u:object_r:preinstall_exec:s0
+
+# /logger
+/logger(/.*)?              u:object_r:logger_file:s0
+# allwinner auto log
+/system/bin/logger.sh      u:object_r:logger_exec:s0
+/system/bin/log_service    u:object_r:logger_exec:s0
+
+# wifi/bt mac
+/system/bin/setmacaddr      u:object_r:engsetmacaddr_exec:s0
+/system/bin/setbtmacaddr    u:object_r:engsetbtmacaddr_exec:s0
+
+#rild
+/dev/ttyUSB[0-4]  u:object_r:radio_device:s0
+/dev/ttyACM[0-4]  u:object_r:radio_device:s0
+
+# sayeye
+/system/bin/sayeye          u:object_r:sayeye_exec:s0
+
+# opteearmtz00
+/dev/opteearmtz00              u:object_r:tee_device:s0
+
+# opteearmtz00
+/system/bin/tee_supplicant     u:object_r:optee_exec:s0

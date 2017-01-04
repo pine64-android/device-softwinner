@@ -1,0 +1,2 @@
+allow platform_app app_data_file:file execute;
+allow platform_app app_data_file:file { execute_no_trans execmod };
